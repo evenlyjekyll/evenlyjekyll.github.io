@@ -1,0 +1,3055 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=af726dc3-82d4-4c46-b84a-e3160ecd1820");@font-face {
+  font-family: "Avenir_Light";
+  src: url("../fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix");
+  src: url("../fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix") format("eot"), url("../fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2") format("woff2"), url("../fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff") format("woff"), url("../fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf") format("truetype"), url("../fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c") format("svg");
+}
+
+@font-face {
+  font-family: "Avenir_Roman";
+  src: url("../fonts/57bf7902-79ee-4b31-a327-1bbf59a3d155.eot?#iefix");
+  src: url("../fonts/57bf7902-79ee-4b31-a327-1bbf59a3d155.eot?#iefix") format("eot"), url("../fonts/b290e775-e0f9-4980-914b-a4c32a5e3e36.woff2") format("woff2"), url("../fonts/4b978f72-bb48-46c3-909a-2a8cd2f8819c.woff") format("woff"), url("../fonts/9bdf0737-f98c-477a-9365-ffc41b9d1285.ttf") format("truetype"), url("../fonts/15281d0d-e3c2-46e1-94db-cb681e00bfaa.svg#15281d0d-e3c2-46e1-94db-cb681e00bfaa") format("svg");
+}
+
+@font-face {
+  font-family: "Avenir_Heavy";
+  src: url("../fonts/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix");
+  src: url("../fonts/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix") format("eot"), url("../fonts/d513e15e-8f35-4129-ad05-481815e52625.woff2") format("woff2"), url("../fonts/61bd362e-7162-46bd-b67e-28f366c4afbe.woff") format("woff"), url("../fonts/ccd17c6b-e7ed-4b73-b0d2-76712a4ef46b.ttf") format("truetype"), url("../fonts/20577853-40a7-4ada-a3fb-dd6e9392f401.svg#20577853-40a7-4ada-a3fb-dd6e9392f401") format("svg");
+}
+
+@font-face {
+  font-family: "Avenir_Black";
+  src: url("../fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix");
+  src: url("../fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix") format("eot"), url("../fonts/c78eb7af-a1c8-4892-974b-52379646fef4.woff2") format("woff2"), url("../fonts/75b36c58-2a02-4057-a537-09af0832ae46.woff") format("woff"), url("../fonts/b5c44a82-eeb8-41de-9c3f-a8db50b24b8a.ttf") format("truetype"), url("../fonts/93603a74-2be0-436c-83e1-68f9ef616eaf.svg#93603a74-2be0-436c-83e1-68f9ef616eaf") format("svg");
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?5q412a");
+  src: url("../fonts/icomoon.eot?5q412a#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?5q412a") format("truetype"), url("../fonts/icomoon.woff?5q412a") format("woff"), url("../fonts/icomoon.svg?5q412a#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icomoon";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1; /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+  content: "\e900";
+}
+
+.icon-github:before {
+  content: "\e901";
+}
+
+.icon-phone:before {
+  content: "\e902";
+}
+
+.icon-twitter:before {
+  content: "\e903";
+}
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  box-sizing: content-box; /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+#nav ul,
+.contact-slider .pagination ul,
+.social-share,
+.content-holder ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clearfix:after,
+.container:after,
+.single-project-banner .text-row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.ellipsis {
+  white-space: nowrap; /* 1 */
+  text-overflow: ellipsis; /* 2 */
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  max-height: 1000000px;
+}
+
+body {
+  color: #333;
+  background: #fff;
+  font: 16px/1.2 "Avenir_Roman", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gm-style img {
+  max-width: none;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.h {
+  font-family: inherit;
+  font-weight: bold;
+  margin: 0 0 .5em;
+  color: inherit;
+}
+
+h1,
+.h1 {
+  font-size: 30px;
+}
+
+h2,
+.h2 {
+  font-size: 27px;
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+}
+
+h4,
+.h4 {
+  font-size: 21px;
+}
+
+h5,
+.h5 {
+  font-size: 17px;
+}
+
+h6,
+.h6 {
+  font-size: 15px;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: #39f;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border: 1px solid #999;
+  padding: .4em .7em;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #333;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="search"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #999;
+}
+
+input[type="text"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="search"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+textarea::-moz-placeholder {
+  opacity: 1;
+  color: #999;
+}
+
+input[type="text"]:-moz-placeholder,
+input[type="tel"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="search"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #999;
+}
+
+input[type="text"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="search"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #999;
+}
+
+input[type="text"].placeholder,
+input[type="tel"].placeholder,
+input[type="email"].placeholder,
+input[type="search"].placeholder,
+input[type="password"].placeholder,
+textarea.placeholder {
+  color: #999;
+}
+
+select {
+  -webkit-border-radius: 0;
+}
+
+textarea {
+  resize: vertical;
+  vertical-align: top;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="file"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  cursor: pointer;
+}
+
+#header {
+  background: #e55943;
+  padding: 15px 0 12px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#header .container {
+  max-width: none;
+}
+
+#header .nav-opener {
+  outline: none;
+}
+
+#header.project {
+  background: #ff8c0e;
+}
+
+#header.digital-project {
+  background: #ffd305;
+}
+
+#header.digital-project #nav > ul > li > a {
+  color: #4c4c4c;
+}
+
+.logo {
+  float: left;
+  width: 122px;
+}
+
+.logo img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.nav-opener {
+  float: right;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  width: 26px;
+  height: 10px;
+  font-size: 0;
+  line-height: 0;
+  margin: 7px 0 0 0;
+}
+
+.nav-opener:before,
+.nav-opener:after {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  content: "";
+  position: absolute;
+  top: 3px;
+  height: 2px;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
+
+.nav-opener:after {
+  top: auto;
+  bottom: -3px;
+}
+
+.nav-active .nav-opener {
+  height: 20px;
+}
+
+.nav-active .nav-opener:before,
+.nav-active .nav-opener:after {
+  top: 50%;
+}
+
+.nav-active .nav-opener:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.nav-active .nav-opener:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  bottom: auto;
+}
+
+#nav {
+  overflow: hidden;
+}
+
+#nav ul {
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -4px;
+}
+
+#nav ul li {
+  letter-spacing: 0;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+#nav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer {
+  color: #8e8e8e;
+  background: #3b3b3b;
+  font-size: 12px;
+  padding: 14px 0;
+}
+
+#footer .container {
+  max-width: 670px;
+}
+
+#footer address {
+  font-style: normal;
+  float: left;
+  margin: 8px 0 0;
+}
+
+#footer address .tel {
+  color: #8e8e8e;
+  text-decoration: none;
+}
+
+#footer address .tel:hover {
+  text-decoration: underline;
+}
+
+#wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 60px 0 0;
+}
+
+.container {
+  max-width: 990px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+.hero-banner {
+  background: #e55943;
+  padding: 89px 15px;
+  overflow: hidden;
+}
+
+.hero-banner .tvscreen-frame {
+  margin: 0 auto 75px;
+  max-width: 945px;
+  position: relative;
+}
+
+.hero-banner .img-screen img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.hero-banner .box-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 20px 83px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.4;
+  bottom: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.hero-banner .box-holder:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  min-height: 100%;
+}
+
+.hero-banner .box-holder > * {
+  white-space: normal;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 99%;
+}
+
+.hero-banner .box-holder p {
+  margin-bottom: 32px;
+}
+
+.about-info {
+  background: #eee;
+  color: #ec7054;
+  font: 24px/1.35 "Avenir_Light";
+  text-align: center;
+  padding: 100px 0 91px;
+  margin: 0 0 100px;
+}
+
+.about-info p {
+  margin-bottom: 41px;
+}
+
+.btn-primary {
+  display: inline-block;
+  vertical-align: top;
+  font: 400 20px/29px "Avenir_Heavy";
+  color: #ec7054;
+  text-decoration: none;
+  border: 1px solid #e55943;
+  border-radius: 8px;
+  padding: 15px 22px;
+  min-width: 170px;
+}
+
+.btn-primary:hover {
+  background: #e55943;
+  color: #fff;
+}
+
+.contact-info-block {
+  color: #ec7054;
+  font: 24px/1.37 "Avenir_Light";
+  text-align: center;
+  max-width: 630px;
+  margin: 0 auto 58px;
+  overflow: hidden;
+}
+
+.contact-slider {
+  margin: 0 auto 150px;
+  position: relative;
+  text-align: center;
+  padding: 0 42px;
+}
+
+.contact-slider .slider-holder {
+  position: relative;
+  padding: 0 40px;
+}
+
+.contact-slider .mask {
+  margin: 0 auto 59px;
+  max-width: 780px;
+  overflow: hidden;
+}
+
+.contact-slider .mask img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.contact-slider .slide.active {
+  z-index: 1;
+}
+
+.contact-slider .btn-prev,
+.contact-slider .btn-next {
+  position: absolute;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  top: 50%;
+  border: 30px solid #eee;
+  border-width: 30px 36px 30px 0;
+  border-color: transparent #eee transparent transparent;
+  margin-top: -30px;
+  outline: none;
+}
+
+.contact-slider .btn-prev:hover,
+.contact-slider .btn-next:hover {
+  border-color: transparent #d4d4d4 transparent transparent;
+}
+
+.contact-slider .btn-prev {
+  left: 0;
+}
+
+.contact-slider .btn-next {
+  right: 0;
+  border-width: 30px 0 30px 36px;
+  border-color: transparent transparent transparent #eee;
+}
+
+.contact-slider .btn-next:hover {
+  border-color: transparent transparent transparent #d4d4d4;
+}
+
+.contact-slider .pagination {
+  margin: 0 0 59px;
+}
+
+.contact-slider .pagination ul {
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -4px;
+  text-align: center;
+}
+
+.contact-slider .pagination ul li {
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: 0;
+  margin: 0 4px 0 5px;
+}
+
+.contact-slider .pagination ul li a {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #d7d7d7;
+  border-radius: 50%;
+  outline: none;
+}
+
+.contact-slider .pagination ul li:hover > a,
+.contact-slider .pagination ul li.active > a {
+  background: #e55943;
+}
+
+.team-block {
+  text-align: center;
+  max-width: 834px;
+  margin: 0 auto 118px;
+}
+
+.team-block h2 {
+  color: #ec7054;
+  font: 400 35px/1.25 "Avenir_Black";
+  margin-bottom: 104px;
+}
+
+.team-block .team-member-holder {
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -4px;
+  margin: 0 -13px;
+}
+
+.team-block .team-member {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  padding: 0 13px;
+  letter-spacing: 0;
+  margin: 0 0 82px;
+}
+
+.team-block .team-member .img-holder {
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 13px;
+  width: 190px;
+}
+
+.team-block .team-member .img-holder img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.team-block .team-member .name {
+  display: block;
+  font: 400 24px/1.35 "Avenir_Heavy";
+}
+
+.team-block .team-member .name a {
+  color: #ec7054;
+  text-decoration: none;
+}
+
+.team-block .team-member .name a:hover {
+  color: #f19682;
+}
+
+.btn-default {
+  display: inline-block;
+  vertical-align: top;
+  color: #8e8e8e;
+  font: 400 10px/1.4 "Avenir_Heavy";
+  text-decoration: none;
+  border: 1px solid #7b7b7b;
+  border-radius: 8px;
+  padding: 8px 11px;
+}
+
+.btn-default:hover {
+  background: #7b7b7b;
+  color: #fff;
+}
+
+.projects-banner {
+  background: #e55943;
+  padding: 59px 25px;
+  overflow: hidden;
+  margin: 0 0 120px;
+}
+
+.projects-banner .tvscreen-frame {
+  margin: 0 auto 77px;
+  max-width: 306px;
+  position: relative;
+}
+
+.projects-banner .img-screen img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.projects-banner .text-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 140px 25px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.projects-banner h1 {
+  font: 400 35px/1.2 "Avenir_Black";
+}
+
+.projects-block .text {
+  overflow: hidden;
+  color: #ec7054;
+  font: 24px/1.38 "Avenir_Light";
+  text-align: center;
+  max-width: 630px;
+  margin: 0 auto 96px;
+}
+
+.projects-item-holder {
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -4px;
+  max-width: 960px;
+  margin: 0 auto 178px;
+}
+
+.projects-item-holder .height {
+  overflow: hidden;
+}
+
+.projects-item-holder .project-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  letter-spacing: 0;
+  background: #ff8b20;
+  text-align: center;
+  margin: 0 10px 21px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.39;
+  padding: 39px 23px;
+}
+
+.projects-item-holder .project-item .title {
+  display: block;
+  font: 400 22px/1.4 "Avenir_Black";
+  margin: 0 0 31px;
+}
+
+.projects-item-holder .project-item .text-holder {
+  overflow: hidden;
+  margin-bottom: 38px;
+}
+
+.projects-item-holder .project-item .text-holder p {
+  margin-bottom: 10px;
+}
+
+.projects-item-holder .project-item .btn-holder {
+  overflow: hidden;
+  margin: 0 -9px;
+}
+
+.projects-item-holder .project-item .btn-holder .btn-col {
+  float: left;
+  width: 50%;
+  padding: 0 9px;
+}
+
+.projects-item-holder .project-item .btn {
+  display: block;
+  font: 400 14px/18px "Avenir_Heavy";
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.projects-item-holder .project-item .btn:hover {
+  background: #fff;
+  color: #ff8b20;
+}
+
+.projects-item-holder .project-item.culture {
+  background: #000;
+  color: #db2023;
+}
+
+.projects-item-holder .project-item.culture .btn {
+  border-color: #9f0215;
+  color: #db2023;
+}
+
+.projects-item-holder .project-item.culture .btn:hover {
+  background: #9f0215;
+  color: #000;
+}
+
+.projects-item-holder .project-item.arte {
+  background: #d0021b;
+}
+
+.projects-item-holder .project-item.arte .btn:hover {
+  color: #d0021b;
+}
+
+.projects-item-holder .project-item.digital {
+  background: #ffd305;
+  color: #4c4c4c;
+}
+
+.projects-item-holder .project-item.digital .btn {
+  border-color: #554f34;
+  color: #4c4c4c;
+}
+
+.projects-item-holder .project-item.digital .btn:hover {
+  background: #554f34;
+  color: #ffd305;
+}
+
+.projects-item-holder .project-item.impossible {
+  background: #d7d7d7;
+  color: #ff5012;
+}
+
+.projects-item-holder .project-item.impossible .btn {
+  border-color: #ff3711;
+  color: #ff5012;
+}
+
+.projects-item-holder .project-item.impossible .btn:hover {
+  background: #ff3711;
+  color: #d7d7d7;
+}
+
+.projects-item-holder .project-item.soundcloud {
+  background: #ff8c0e;
+  color: #0c0c0c;
+}
+
+.projects-item-holder .project-item.soundcloud .btn {
+  border-color: #0b0b0b;
+  color: #0b0b0b;
+}
+
+.projects-item-holder .project-item.soundcloud .btn:hover {
+  background: #0b0b0b;
+  color: #ff8c0e;
+}
+
+.projects-item-holder .project-item.trivago {
+  background: #7b7b7b;
+}
+
+.projects-item-holder .project-item.trivago .btn:hover {
+  color: #7b7b7b;
+}
+
+.projects-item-holder .project-item.carhartt {
+  background: #0e0e0e;
+}
+
+.projects-item-holder .project-item.carhartt .btn:hover {
+  color: #0e0e0e;
+}
+
+.projects-item-holder .project-item.semperoper {
+  background: #f5f5f5;
+  color: #0c0c0c;
+}
+
+.projects-item-holder .project-item.semperoper .btn {
+  border-color: #0b0b0b;
+  color: #0b0b0b;
+}
+
+.projects-item-holder .project-item.semperoper .btn:hover {
+  background: #0b0b0b;
+  color: #f5f5f5;
+}
+
+.projects-item-holder .project-item.red-bull {
+  background: #3b3b3b;
+  color: #ff5012;
+}
+
+.projects-item-holder .project-item.red-bull .title {
+  margin-bottom: 16px;
+}
+
+.projects-item-holder .project-item.red-bull .text-holder {
+  margin-bottom: 20px;
+}
+
+.projects-item-holder .project-item.red-bull .btn {
+  border-color: #e53817;
+  color: #ff5012;
+}
+
+.projects-item-holder .project-item.red-bull .btn:hover {
+  background: #e53817;
+  color: #3b3b3b;
+}
+
+.projects-item-holder .project-item.sleek {
+  background: #eaded1;
+  color: #5c5c5c;
+}
+
+.projects-item-holder .project-item.sleek .btn {
+  border-color: #5f5e5c;
+  color: #5c5c5c;
+}
+
+.projects-item-holder .project-item.sleek .btn:hover {
+  background: #5f5e5c;
+  color: #eaded1;
+}
+
+.single-project-banner {
+  background: #ff8c0e;
+  padding: 100px 0 69px;
+  margin: 0 0 100px;
+  color: #fff;
+}
+
+.single-project-banner.digital {
+  background: #ffd305;
+  color: #4c4c4c;
+  padding-bottom: 72px;
+}
+
+.single-project-banner.digital .mobile-text {
+  display: none;
+}
+
+.single-project-banner .text-row {
+  max-width: 624px;
+  margin: 0 auto;
+}
+
+.single-project-banner .project-logo {
+  margin: 0 auto 26px;
+  width: 66px;
+}
+
+.single-project-banner .project-logo img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.single-project-banner h1 {
+  text-align: center;
+  font: 400 35px/1.3 "Avenir_Black";
+  margin-bottom: 80px;
+}
+
+.single-project-banner .text-box {
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.single-project-banner .img-holder {
+  overflow: hidden;
+}
+
+.single-project-banner .img-holder img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.project-image-holder {
+  margin: 0 auto;
+  max-width: 782px;
+}
+
+.project-image-holder .row {
+  margin: 0 -10px;
+  overflow: hidden;
+}
+
+.project-image-holder .img-col {
+  padding: 0 10px;
+  margin: 0 0 74px;
+}
+
+.project-image-holder img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.project-btn-holder {
+  text-align: center;
+  margin: 0 0 75px;
+}
+
+.btn-info {
+  display: inline-block;
+  vertical-align: top;
+  font: 400 14px/18px "Avenir_Heavy";
+  color: #ff9e0b;
+  text-decoration: none;
+  border: 1px solid #ff8c0e;
+  border-radius: 8px;
+  padding: 11px;
+  min-width: 298px;
+}
+
+.btn-info:hover {
+  background: #ff8c0e;
+  color: #fff;
+}
+
+.project-pagination {
+  text-align: center;
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -4px;
+  background: #d8d8d8;
+  padding: 54px 0;
+}
+
+.project-pagination a {
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: 0;
+  margin: 0 10px;
+  color: #7b7b7b;
+  font: 400 12px/20px "Avenir_Heavy";
+  text-decoration: none;
+}
+
+.project-pagination a span {
+  display: block;
+  padding: 10px 25px;
+}
+
+.project-pagination a:hover span {
+  background: #7b7b7b;
+  color: #fff;
+}
+
+.project-pagination a:hover:after {
+  display: none;
+}
+
+.project-pagination .btn-back span {
+  border-radius: 6px;
+  border: 1px solid #7b7b7b;
+}
+
+.project-pagination .btn-prev {
+  position: relative;
+  min-width: 220px;
+  padding: 0 0 0 30px;
+}
+
+.project-pagination .btn-prev:before,
+.project-pagination .btn-prev:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 21px solid #7b7b7b;
+  border-width: 21px 30px 21px 0;
+  border-color: transparent #7b7b7b transparent transparent;
+  z-index: 1;
+}
+
+.project-pagination .btn-prev:after {
+  z-index: 2;
+  border-width: 20px 29px 20px 0;
+  border-color: transparent #d8d8d8 transparent transparent;
+  left: 1px;
+  top: 1px;
+}
+
+.project-pagination .btn-prev span {
+  display: block;
+  border: 1px solid #7b7b7b;
+  border-width: 1px 1px 1px 0;
+  border-radius: 0 6px 6px 0;
+  padding: 10px;
+}
+
+.project-pagination .btn-next {
+  position: relative;
+  min-width: 220px;
+  padding: 0 30px 0 0;
+}
+
+.project-pagination .btn-next span {
+  display: block;
+  border: 1px solid #7b7b7b;
+  border-width: 1px 0 1px 1px;
+  border-radius: 6px 0 0 6px;
+  padding: 10px;
+}
+
+.project-pagination .btn-next:before,
+.project-pagination .btn-next:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border: 21px solid #7b7b7b;
+  border-width: 21px 0 21px 30px;
+  border-color: transparent transparent transparent #7b7b7b;
+  z-index: 1;
+}
+
+.project-pagination .btn-next:after {
+  z-index: 2;
+  border-width: 20px 0 20px 29px;
+  border-color: transparent transparent transparent #d8d8d8;
+  right: 1px;
+  top: 1px;
+}
+
+.project-detail {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.project-detail .project-btn-holder {
+  padding-top: 25px;
+}
+
+.project-detail .btn-info {
+  color: #4c4c4c;
+  border-color: #ffd305;
+}
+
+.project-detail .btn-info:hover {
+  background: #ffd305;
+}
+
+.project-detail .img-holder {
+  margin: 0 0 50px;
+}
+
+.project-detail .img-holder img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.project-detail .text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4c4c4c;
+  overflow: hidden;
+  margin: 0 auto 57px;
+  max-width: 616px;
+  padding: 8px 0 0;
+}
+
+.team-banner {
+  background: #e55943;
+  color: #fff;
+  text-align: center;
+  padding: 151px 0 242px;
+  margin: 0 0 151px;
+}
+
+.team-banner .holder {
+  padding: 0 25px;
+  margin: 0 auto;
+  max-width: 670px;
+  font-size: 24px;
+  line-height: 1.37;
+}
+
+.team-banner .text {
+  overflow: hidden;
+  margin: 0 0 89px;
+}
+
+.team-banner h1 {
+  font: 400 35px/1.25 "Avenir_Black";
+  margin-bottom: 57px;
+}
+
+.team-banner p {
+  margin-bottom: 33px;
+}
+
+.team-banner .btn-hiring {
+  display: inline-block;
+  vertical-align: top;
+  font: 400 20px/24px "Avenir_Heavy";
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 17px 38px;
+}
+
+.team-banner .btn-hiring:hover {
+  background: #fff;
+  color: #e55943;
+}
+
+.team-member-block h2 {
+  color: #ec7054;
+  font: 400 35px/1.3 "Avenir_Black";
+  margin-bottom: 102px;
+  text-align: center;
+}
+
+.team-member-block .team-membe-holder {
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -4px;
+  max-width: 848px;
+  margin: 0 auto 101px;
+  overflow: hidden;
+}
+
+.team-member-block .member-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 196px;
+  margin: 0 8px 78px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.team-member-block .member-box .img-holder {
+  width: 154px;
+  margin: 0 auto 22px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.team-member-block .member-box .img-holder img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.team-member-block .member-box .name {
+  display: block;
+  font: 400 24px/1.37 "Avenir_Heavy";
+  margin: 0 0 17px;
+}
+
+.team-member-block .member-box .name a {
+  color: #ec7054;
+  text-decoration: none;
+}
+
+.team-member-block .member-box .name a:hover {
+  color: #f19682;
+}
+
+.social-share {
+  border-top: 1px solid #e1e1e1;
+  padding: 33px 0 0;
+}
+
+.social-share li {
+  font: 400 18px/1.3 "Avenir_Light";
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.social-share li a {
+  color: #8e8e8e;
+  text-decoration: none;
+}
+
+.social-share li a:hover {
+  color: #4e4e4e;
+}
+
+.social-share li a:before {
+  content: "\e901";
+  display: block;
+  margin: 0 auto 5px;
+  font-family: "icomoon";
+  font-size: 26px;
+  line-height: 1;
+  color: #e55943;
+}
+
+.social-share li a.email:before {
+  content: "\e900";
+  margin-bottom: 10px;
+  background-position: -1px 0;
+  font-size: 17px;
+}
+
+.social-share li a.twitter:before {
+  content: "\e903";
+  font-size: 22px;
+  background-position: -35px 0;
+  margin-bottom: 9px;
+}
+
+.content-holder {
+  max-width: 670px;
+  padding-top: 199px;
+  color: #ec7054;
+  font-size: 19px;
+  line-height: 1.37;
+}
+
+.content-holder p {
+  margin-bottom: 48px;
+}
+
+.content-holder .add-text {
+  margin-bottom: 48px;
+  overflow: hidden;
+}
+
+.content-holder h1 {
+  color: #4c4c4c;
+  font: 400 35px/1.3 "Avenir_Black";
+  margin-bottom: 37px;
+}
+
+.content-holder .text {
+  overflow: hidden;
+  font: 24px/1.37 "Avenir_Light";
+  margin: 0 0 53px;
+}
+
+.content-holder h2 {
+  font: 400 24px/1.35 "Avenir_Black";
+  color: #4c4c4c;
+  margin-bottom: 35px;
+}
+
+.content-holder ul {
+  padding-left: 44px;
+  overflow: hidden;
+  margin-bottom: 81px;
+}
+
+.content-holder ul li {
+  font-size: 16px;
+  line-height: 1.3;
+  position: relative;
+  padding: 0 0 0 36px;
+  margin: 0 0 23px;
+}
+
+.content-holder ul li:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 16px;
+  height: 1px;
+  background: #e55943;
+}
+
+.content-holder .apply-text {
+  overflow: hidden;
+  font: 24px/1.37 "Avenir_Light";
+  margin: 0 0 198px;
+}
+
+.content-holder .btn-holder {
+  text-align: center;
+  padding: 3px 0;
+}
+
+.content-holder .btn-default {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 17px 35px;
+}
+
+.jobs-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.jobs-banner .img-holder img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.jobs-banner .holder {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0 25px;
+  max-width: 700px;
+  margin: auto;
+  white-space: nowrap;
+  text-align: center;
+  color: #fff;
+}
+
+.jobs-banner .holder:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  min-height: 100%;
+}
+
+.jobs-banner .holder > * {
+  white-space: normal;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 99%;
+}
+
+.jobs-banner h1 {
+  font: 400 60px/1.37 "Avenir_Black";
+  margin-bottom: 68px;
+  text-shadow: 0 2px 1px #513a36;
+}
+
+.grow-block {
+  overflow: hidden;
+  text-align: center;
+  background: #e55943;
+  color: #fff;
+  font: 24px/1.37 "Avenir_Light";
+  padding: 99px 0 70px;
+  margin: 0 0 100px;
+}
+
+.grow-block .container {
+  max-width: 670px;
+}
+
+.grow-block h2 {
+  font: 400 35px/1.3 "Avenir_Black";
+  margin-bottom: 52px;
+}
+
+.looking-for-block {
+  text-align: center;
+  color: #ec7054;
+  margin-bottom: 101px;
+}
+
+.looking-for-block h2 {
+  font: 400 35px/1.3 "Avenir_Black";
+  margin-bottom: 67px;
+}
+
+.looking-for-block .btn-primary {
+  margin: 0 9px;
+  min-width: 270px;
+  font-size: 24px;
+}
+
+.job-detail {
+  text-align: center;
+  font: 24px/1.37 "Avenir_Light";
+  color: #ec7054;
+  background: #eee;
+  padding: 99px 0 183px;
+}
+
+.job-detail .container {
+  max-width: 670px;
+}
+
+.job-detail p {
+  margin-bottom: 33px;
+}
+
+.job-detail .btn-wrap {
+  padding: 18px 0;
+}
+
+.job-detail .btn-default {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 17px 35px;
+}
+
+.contact-block {
+  text-align: center;
+  color: #ec7054;
+  font-size: 24px;
+  line-height: 1.37;
+  padding-top: 199px;
+  padding-bottom: 201px;
+}
+
+.contact-block h1 {
+  font: 400 35px/1.3 "Avenir_Black";
+  margin-bottom: 51px;
+}
+
+.contact-block p {
+  margin-bottom: 51px;
+}
+
+.contact-block address {
+  font-style: normal;
+  margin: 0 auto 51px;
+  color: #4c4c4c;
+  max-width: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-block address span {
+  display: block;
+  padding: 0 15px;
+  position: relative;
+}
+
+.contact-block address span:before,
+.contact-block address span:after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  top: -999px;
+  width: 1px;
+  background: #3b3b3b;
+  left: 4px;
+}
+
+.contact-block address span:after {
+  left: auto;
+  right: 4px;
+}
+
+.contact-block address:before,
+.contact-block address:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 9px;
+  height: 101px;
+  background: url(../images/arrow.png) no-repeat;
+  left: 0;
+  z-index: 2;
+}
+
+.contact-block address:after {
+  left: auto;
+  right: 0;
+}
+
+.contact-block .map {
+  max-width: 458px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  border: 1px solid #e6614c;
+  border-radius: 8px;
+}
+
+.contact-block .map img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.contact-block .option-box .btn-primary {
+  font-size: 22px;
+  min-width: 270px;
+  margin: 0 8px;
+  line-height: 28px;
+}
+
+.contact-block .option-box .btn-primary:hover span:before {
+  background-position: -203px -1px;
+}
+
+.contact-block .option-box .btn-primary:hover.email span:before {
+  background-position: -169px -1px;
+}
+
+.contact-block .option-box .btn-primary span {
+  display: block;
+  position: relative;
+  padding: 0 0 0 33px;
+}
+
+.contact-block .option-box .btn-primary span:before {
+  content: "\e902";
+  position: absolute;
+  top: 3px;
+  left: 9px;
+  font-size: 23px;
+  line-height: 1;
+  font-family: "icomoon";
+}
+
+.contact-block .option-box .btn-primary.email span:before {
+  content: "\e900";
+  font-size: 14px;
+  top: 8px;
+}
+
+@media (min-width: 768px) {
+  #footer .btn-default {
+    float: right;
+  }
+
+  .single-project-banner .text-box {
+    float: right;
+    width: 47.7%;
+    padding: 6px 0 0;
+  }
+
+  .single-project-banner .text-box p {
+    margin: 0;
+  }
+
+  .single-project-banner .img-holder {
+    padding: 0 18px 0 0;
+  }
+
+  .project-image-holder .img-col {
+    float: left;
+    width: 50%;
+  }
+
+  .team-member-block .member-box.mobile {
+    display: none;
+  }
+
+  .content-holder .add-text p {
+    display: inline;
+    margin: 0;
+  }
+
+  .jobs-banner {
+    max-height: 811px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #header.digital-project #nav > ul > li.active > a,
+  #header.digital-project #nav > ul > li:hover > a {
+    color: white;
+  }
+
+  .logo {
+    margin-top: 4px;
+  }
+
+  .nav-opener {
+    display: none;
+  }
+
+  #nav {
+    text-align: right;
+  }
+
+  #nav ul li {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #nav > ul > li {
+    margin-left: 42px;
+    padding-top: 7px;
+    text-align: left;
+  }
+
+  #nav > ul > li.active > a,
+  #nav > ul > li:hover > a {
+    color: #4d4d4d;
+  }
+
+  .team-banner .holder br {
+    display: none;
+  }
+
+  .content-holder ul li {
+    font-size: 19px;
+  }
+
+  .jobs-banner {
+    max-height: 708px;
+  }
+
+  .contact-block .option-box br {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  a[href^=tel],
+  a[href^=skype],
+  a[href^=sms] {
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hd .container {
+    max-width: 1406px;
+  }
+
+  .single-project-banner .text-box {
+    width: 48.5%;
+    padding: 4px 0 0;
+  }
+
+  .single-project-banner .img-holder {
+    padding: 0 14px 0 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  #header.digital-project {
+    border-bottom: 1px solid #e1c029;
+  }
+
+  #wrapper {
+    padding: 59px 0 0;
+  }
+
+  .hd .container {
+    max-width: 990px;
+  }
+
+  .hero-banner {
+    padding: 39px 25px 45px 33px;
+  }
+
+  .hero-banner .tvscreen-frame {
+    max-width: 306px;
+  }
+
+  .hero-banner .box-holder {
+    padding: 152px 63px 116px 47px;
+  }
+
+  .team-block {
+    max-width: 620px;
+    margin-bottom: 116px;
+  }
+
+  .team-block .team-member {
+    width: 33.33%;
+  }
+
+  .projects-banner {
+    padding: 70px 25px;
+    margin-bottom: 119px;
+  }
+
+  .projects-banner .tvscreen-frame {
+    max-width: 254px;
+    margin-bottom: 33px;
+  }
+
+  .projects-banner .text-box {
+    padding-top: 116px;
+  }
+
+  .projects-item-holder {
+    max-width: 640px;
+  }
+
+  .projects-item-holder .height {
+    min-height: 179px;
+  }
+
+  .single-project-banner.digital {
+    padding-bottom: 74px;
+    margin-bottom: 100px;
+  }
+
+  .single-project-banner.digital .text-box {
+    width: 48.3%;
+    padding-top: 0;
+  }
+
+  .single-project-banner {
+    padding-bottom: 66px;
+    margin-bottom: 98px;
+  }
+
+  .single-project-banner h1 {
+    margin-bottom: 83px;
+  }
+
+  .team-banner {
+    padding-bottom: 110px;
+  }
+
+  .team-member-block .team-membe-holder {
+    max-width: 636px;
+  }
+
+  .team-member-block .member-box {
+    margin-bottom: 77px;
+  }
+}
+
+@media (max-width: 1023px) {
+  #header {
+    padding: 18px 0 12px;
+  }
+
+  #header.project #nav {
+    background: #ff8c0e;
+  }
+
+  #header.project #nav > ul > li.active > a,
+  #header.project #nav > ul > li:hover > a {
+    background: #ffa441;
+  }
+
+  #header.digital-project {
+    border: none;
+  }
+
+  #header.digital-project .nav-opener:before,
+  #header.digital-project .nav-opener:after {
+    background: #3b3b3b;
+  }
+
+  #header.digital-project #nav {
+    background: #ffd305;
+  }
+
+  #header.digital-project #nav > ul > li.active > a,
+  #header.digital-project #nav > ul > li:hover > a {
+    background: #d1ac00;
+  }
+
+  #nav {
+    position: fixed;
+    top: 59px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+    background: #e55943;
+    text-align: center;
+    padding: 40px 0;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+    transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+  }
+
+  .nav-active #nav {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .resize-active #nav {
+    -webkit-transition-duration: 0;
+    transition-duration: 0;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  #nav {
+    padding: 9px 0;
+  }
+
+  #nav ul li {
+    font-size: 32px;
+  }
+
+  #nav > ul {
+    -webkit-transform: translate(0, 10%);
+    -ms-transform: translate(0, 10%);
+    transform: translate(0, 10%);
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    margin-bottom: 15px;
+  }
+
+  .nav-active #nav > ul {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .resize-active #nav > ul {
+    -webkit-transition-duration: 0;
+    transition-duration: 0;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  #nav > ul > li.active > a,
+  #nav > ul > li:hover > a {
+    background: #eb8170;
+  }
+
+  #nav > ul > li > a {
+    display: block;
+    padding: 31px 25px;
+  }
+
+  .hero-banner {
+    padding: 89px 25px 79px;
+  }
+
+  .hero-banner .tvscreen-frame {
+    max-width: 330px;
+  }
+
+  .hero-banner .box-holder {
+    padding: 100px 22px 185px;
+  }
+
+  .about-info {
+    padding-bottom: 101px;
+  }
+
+  .contact-info-block {
+    margin-bottom: 77px;
+  }
+
+  .contact-slider {
+    margin-bottom: 120px;
+    padding: 0 30px;
+  }
+
+  .contact-slider .mask {
+    max-width: none;
+    margin-bottom: 46px;
+  }
+
+  .contact-slider .btn-prev,
+  .contact-slider .btn-next {
+    display: none;
+  }
+
+  .contact-slider .pagination {
+    margin-bottom: 80px;
+  }
+
+  .team-block {
+    margin-bottom: 120px;
+  }
+
+  .projects-banner {
+    padding-top: 105px;
+  }
+
+  .projects-banner .tvscreen-frame {
+    max-width: 309px;
+    margin-bottom: 93px;
+  }
+
+  .projects-banner .text-box {
+    padding-top: 147px;
+  }
+
+  .projects-item-holder {
+    margin-bottom: 179px;
+  }
+
+  .single-project-banner.digital {
+    padding-bottom: 87px;
+    margin-bottom: 101px;
+  }
+
+  .single-project-banner.digital .project-logo {
+    margin-bottom: 26px;
+  }
+
+  .single-project-banner.digital h1 {
+    margin-bottom: 101px;
+  }
+
+  .single-project-banner.digital .img-holder {
+    margin-top: 2px;
+    padding-right: 15px;
+  }
+
+  .single-project-banner {
+    padding-bottom: 87px;
+  }
+
+  .single-project-banner .project-logo {
+    margin-bottom: 24px;
+  }
+
+  .single-project-banner h1 {
+    margin-bottom: 96px;
+  }
+
+  .single-project-banner .img-holder {
+    margin-top: 5px;
+  }
+
+  .project-image-holder {
+    max-width: 626px;
+  }
+
+  .project-image-holder .row {
+    margin: 0 -8px;
+  }
+
+  .project-image-holder .img-col {
+    padding: 0 8px;
+    margin-bottom: 77px;
+  }
+
+  .project-detail {
+    max-width: 626px;
+  }
+
+  .team-banner {
+    padding-top: 184px;
+    padding-bottom: 242px;
+    margin-bottom: 120px;
+  }
+
+  .team-banner .holder {
+    max-width: 500px;
+  }
+
+  .team-banner .text {
+    margin-bottom: 132px;
+  }
+
+  .team-banner h1 {
+    margin-bottom: 40px;
+  }
+
+  .team-member-block .member-box {
+    margin-bottom: 75px;
+  }
+
+  .team-member-block .member-box .img-holder {
+    width: 156px;
+    margin-bottom: 23px;
+  }
+
+  .team-member-block .member-box .name {
+    margin-bottom: 19px;
+  }
+
+  .social-share {
+    padding-top: 35px;
+  }
+
+  .social-share li {
+    margin-bottom: 27px;
+  }
+
+  .content-holder {
+    padding-top: 150px;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+
+  .content-holder .add-text {
+    margin-bottom: 104px;
+  }
+
+  .content-holder h2 {
+    margin-bottom: 34px;
+  }
+
+  .content-holder ul {
+    padding-left: 30px;
+  }
+
+  .content-holder ul li {
+    padding-left: 31px;
+  }
+
+  .jobs-banner h1 {
+    margin-bottom: 108px;
+  }
+
+  .grow-block {
+    padding-bottom: 78px;
+  }
+
+  .looking-for-block .btn-primary {
+    margin: 0 6px;
+  }
+
+  .job-detail .btn-wrap {
+    padding-top: 43px;
+  }
+
+  .contact-block {
+    padding-top: 149px;
+    padding-bottom: 171px;
+  }
+
+  .contact-block .option-box .btn-primary {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  #nav ul li {
+    font-size: 28px;
+  }
+
+  #nav > ul > li {
+    position: relative;
+  }
+
+  #nav > ul > li:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #e97663;
+  }
+
+  #nav > ul > li > a {
+    padding: 14px 59px;
+    text-align: left;
+  }
+
+  #footer {
+    text-align: center;
+    padding: 13px 0;
+  }
+
+  #footer address {
+    display: none;
+  }
+
+  .hero-banner {
+    padding: 26px 25px 10px;
+  }
+
+  .hero-banner .tvscreen-frame {
+    max-width: 199px;
+    margin-bottom: 52px;
+  }
+
+  .hero-banner .box-holder {
+    font-size: 22px;
+    padding: 60px 20px 72px;
+  }
+
+  .hero-banner .box-holder p {
+    margin-bottom: 27px;
+  }
+
+  .about-info {
+    line-height: 1.37;
+    padding: 50px 10px;
+    margin-bottom: 49px;
+  }
+
+  .about-info br {
+    display: none;
+  }
+
+  .about-info p {
+    margin-bottom: 31px;
+  }
+
+  .about-info .btn-primary {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  .contact-info-block {
+    margin-bottom: 28px;
+  }
+
+  .contact-slider {
+    margin-bottom: 101px;
+    padding: 0;
+  }
+
+  .contact-slider .btn-primary {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  .contact-slider .slider-holder {
+    padding: 0 14px;
+  }
+
+  .contact-slider .mask {
+    margin-bottom: 30px;
+  }
+
+  .contact-slider .pagination {
+    margin-bottom: 49px;
+  }
+
+  .team-block {
+    margin: 0 -5px 66px;
+    max-width: none;
+  }
+
+  .team-block h2 {
+    font-size: 24px;
+    margin-bottom: 42px;
+  }
+
+  .team-block .team-member-holder {
+    margin: 0 -6px;
+  }
+
+  .team-block .team-member {
+    padding: 0 6px;
+    margin-bottom: 36px;
+  }
+
+  .team-block .team-member .img-holder {
+    margin-bottom: 4px;
+    width: 84px;
+  }
+
+  .team-block .team-member .name {
+    font-size: 11px;
+  }
+
+  .projects-banner {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    margin-bottom: 49px;
+  }
+
+  .projects-banner .tvscreen-frame {
+    max-width: 256px;
+    margin-bottom: 10px;
+  }
+
+  .projects-banner .text-box {
+    padding-top: 102px;
+  }
+
+  .projects-banner h1 {
+    font-size: 24px;
+  }
+
+  .projects-block .text {
+    padding: 0 12px;
+    margin-bottom: 26px;
+  }
+
+  .projects-item-holder {
+    margin: 0 -25px;
+    max-width: none;
+    text-align: center;
+  }
+
+  .projects-item-holder .project-item {
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+    padding: 41px 25px;
+  }
+
+  .projects-item-holder .project-item .height {
+    height: auto !important;
+  }
+
+  .projects-item-holder .project-item .title {
+    font-size: 24px;
+  }
+
+  .projects-item-holder .project-item .text-holder {
+    margin-bottom: 44px;
+    min-height: 86px;
+  }
+
+  .projects-item-holder .project-item .btn {
+    padding: 11px;
+  }
+
+  .single-project-banner.digital {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .single-project-banner.digital .project-logo {
+    margin-bottom: 14px;
+  }
+
+  .single-project-banner.digital h1 {
+    margin-bottom: 47px;
+  }
+
+  .single-project-banner.digital .text-box {
+    width: auto;
+    margin-bottom: 43px;
+  }
+
+  .single-project-banner.digital .text-box .mobile-text {
+    display: block;
+  }
+
+  .single-project-banner.digital .img-holder {
+    margin-top: 0;
+    padding: 23px 21px 17px;
+  }
+
+  .single-project-banner {
+    padding-top: 38px;
+    padding-bottom: 0;
+    margin-bottom: 12px;
+  }
+
+  .single-project-banner .text-row {
+    max-width: none;
+  }
+
+  .single-project-banner .project-logo {
+    margin-bottom: 12px;
+  }
+
+  .single-project-banner h1 {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+
+  .single-project-banner .text-box {
+    font-size: 14px;
+    line-height: 1.37;
+    overflow: hidden;
+    margin: 0 0 49px;
+  }
+
+  .single-project-banner .text-box p {
+    margin-bottom: 18px;
+  }
+
+  .single-project-banner .img-holder {
+    margin: 0 -25px;
+    background: #fff;
+    padding: 25px 20px 4px;
+  }
+
+  .single-project-banner .img-holder .img {
+    margin: 0 auto;
+    max-width: 278px;
+  }
+
+  .project-image-holder .img-col {
+    padding: 0 4px;
+    margin-bottom: 17px;
+    max-width: 286px;
+    margin: 0 auto;
+  }
+
+  .project-btn-holder {
+    padding: 20px 0 25px;
+  }
+
+  .btn-info {
+    min-width: 270px;
+  }
+
+  .project-pagination {
+    display: none;
+  }
+
+  .project-detail .project-btn-holder {
+    padding-top: 19px;
+  }
+
+  .project-detail .img-holder {
+    margin: 0 -4px 17px;
+  }
+
+  .project-detail .text {
+    display: none;
+  }
+
+  .team-banner {
+    padding-top: 67px;
+    padding-bottom: 50px;
+    margin-bottom: 149px;
+  }
+
+  .team-banner .holder {
+    font-size: 22px;
+  }
+
+  .team-banner .text {
+    margin-bottom: 26px;
+  }
+
+  .team-banner h1 {
+    font-size: 24px;
+    margin-bottom: 52px;
+  }
+
+  .team-banner p {
+    margin-bottom: 29px;
+  }
+
+  .team-banner p br {
+    display: none;
+  }
+
+  .team-banner .btn-hiring {
+    font-size: 14px;
+    padding: 9px 20px;
+  }
+
+  .team-member-block h2 {
+    display: none;
+  }
+
+  .team-member-block .team-membe-holder {
+    margin: 0 -10px 36px;
+    text-align: center;
+    max-width: none;
+  }
+
+  .team-member-block .member-box {
+    width: 50%;
+    margin: 0 0 50px;
+    padding: 0 7px;
+  }
+
+  .team-member-block .member-box .img-holder {
+    width: 100px;
+    margin-bottom: 14px;
+  }
+
+  .team-member-block .member-box .name {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .social-share {
+    padding-top: 23px;
+  }
+
+  .social-share li {
+    font-size: 12px;
+    margin-bottom: 17px;
+  }
+
+  .social-share li a:before {
+    font-size: 16px;
+  }
+
+  .social-share li a.email:before {
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+
+  .social-share li a.twitter:before {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .content-holder {
+    padding-top: 51px;
+    line-height: 1.37;
+  }
+
+  .content-holder p {
+    margin-bottom: 45px;
+  }
+
+  .content-holder .add-text {
+    margin-bottom: 35px;
+  }
+
+  .content-holder .add-text p {
+    margin-bottom: 22px;
+  }
+
+  .content-holder .add-text br {
+    display: none;
+  }
+
+  .content-holder h1 {
+    font-size: 24px;
+    margin-bottom: 47px;
+  }
+
+  .content-holder .text {
+    margin-bottom: 2px;
+  }
+
+  .content-holder h2 {
+    margin-bottom: 33px;
+  }
+
+  .content-holder ul {
+    padding: 13px 0 0;
+    margin-bottom: 22px;
+  }
+
+  .content-holder ul li {
+    padding: 0;
+    line-height: 1.37;
+    margin-bottom: 22px;
+  }
+
+  .content-holder ul li:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  .content-holder ul li:before {
+    display: none;
+  }
+
+  .content-holder .apply-text {
+    margin-bottom: 98px;
+  }
+
+  .content-holder .apply-text p {
+    margin-bottom: 26px;
+  }
+
+  .content-holder .btn-default {
+    padding: 17px 34px;
+  }
+
+  .jobs-banner h1 {
+    font-size: 43px;
+    margin-bottom: 136px;
+  }
+
+  .grow-block {
+    padding: 55px 10px;
+    margin: 0 0 55px;
+  }
+
+  .grow-block h2 {
+    font-size: 24px;
+    line-height: 1.37;
+    margin-bottom: 43px;
+  }
+
+  .looking-for-block {
+    margin-bottom: 38px;
+  }
+
+  .looking-for-block h2 {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+
+  .looking-for-block .btn-primary {
+    margin: 0 0 25px;
+  }
+
+  .job-detail {
+    padding: 55px 10px 83px;
+  }
+
+  .job-detail .btn-wrap {
+    padding-top: 3px;
+    margin: 0 -10px;
+  }
+
+  .contact-block {
+    padding-top: 66px;
+    padding-bottom: 75px;
+  }
+
+  .contact-block h1 {
+    font-size: 24px;
+  }
+
+  .contact-block p {
+    margin-bottom: 34px;
+  }
+
+  .contact-block address {
+    margin-bottom: 43px;
+    max-width: 220px;
+  }
+
+  .contact-block address span:before,
+  .contact-block address span:after {
+    background: #979797;
+  }
+
+  .contact-block address:before,
+  .contact-block address:after {
+    height: 85px;
+    background: url(../images/arrow-small.png) no-repeat;
+  }
+
+  .contact-block .map {
+    margin-bottom: 37px;
+  }
+
+  .contact-block .option-box p {
+    margin-bottom: 52px;
+  }
+
+  .contact-block .option-box .btn-primary {
+    margin: 0 0 26px;
+  }
+}
+
