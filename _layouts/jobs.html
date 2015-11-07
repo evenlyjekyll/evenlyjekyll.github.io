@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="content-holder container">
+    <h1>{{ page.title }}</h1>
+    <div class="text">
+        <p>{{ page.description }}</p>
+    </div>
+    <h2>What we have to offer:</h2>
+    <ul>
+        {% for offer in page.offers %}
+            <li>{{ offer }}</li>
+        {% endfor %}
+    </ul>
+    <h2>What we want from you:</h2>
+    <div class="add-text">
+        <p>{{ page.wants }}</p>
+    </div>
+    <h2>Apply here:</h2>
+    <div class="apply-text">
+        <p>Send us an email with your CV, a cover letter and references to:</p>
+        <div class="btn-holder">
+            <a href="mailto:&#106;&#111;&#098;&#115;&#064;&#110;&#120;&#116;&#098;&#103;&#116;&#104;&#110;&#103;&#046;&#099;&#111;&#109;" class="btn-default">&#106;&#111;&#098;&#115;&#064;&#110;&#120;&#116;&#098;&#103;&#116;&#104;&#110;&#103;&#046;&#099;&#111;&#109;</a>
+        </div>
+    </div>
+</div>

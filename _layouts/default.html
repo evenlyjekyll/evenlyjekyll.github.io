@@ -3,7 +3,7 @@
 
     {% include head.html %}
 
-    <body class="hd">
+    <body {% if page.classhd != false %}class="hd"{% endif %}>
         <div id="wrapper">
             {% include navbar.html %}
             {{ content }}
