@@ -1,0 +1,239 @@
+#header {
+  background: #e55943;
+  padding: 15px 0 12px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  .container {
+    max-width: none;
+  }
+  @include media('<desktop') {
+    padding: 18px 0 12px;
+  }
+  .nav-opener {
+    outline: none;
+  }
+  &.project {
+    background: #ff8c0e;
+    @include media('<desktop') {
+      #nav {
+        background: #ff8c0e;
+        >ul {
+          >li {
+            &.active,
+            &:hover {
+              >a {
+                background: lighten(#ff8c0e,10%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.digital-project {
+    background: #ffd305;
+    @include media('<large-desktop') {
+      border-bottom: 1px solid #e1c029;
+    }
+    @include media('<desktop') {
+      border: none;
+      .nav-opener {
+        &:before,
+        &:after {
+          background: #3b3b3b;
+        }
+      }
+    }
+    #nav {
+      @include media('<desktop') {
+        background: #ffd305;
+      }
+      >ul {
+        >li {
+          >a {
+            color: #4c4c4c;
+          }
+          &.active,
+          &:hover {
+            >a {
+              @include media('>=desktop') {
+                color: lighten(#4c4c4c,70%);
+              }
+              @include media('<desktop') {
+                background: darken(#ffd305,10%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.logo {
+  float: left;
+  width: 122px;
+   @include media('>=desktop') {
+    margin-top: 4px;
+   }
+  img {
+    vertical-align: top;
+    width: 100%;
+    height: auto;
+  }
+}
+.nav-opener {
+  @include media('>=desktop') {
+    display: none;
+  }
+  float: right;
+  position: relative;
+  @include rotate(0deg);
+  width: 26px;
+  height: 10px;
+  font-size: 0;
+  line-height: 0;
+  margin: 7px 0 0 0;
+  &:before,
+  &:after {
+    @include rotate(0deg);
+    @include transition (all 0.3s ease-in-out);
+    content: '';
+    position: absolute;
+    top: 3px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    background: #fff;
+  }
+  &:after {
+    top: auto;
+    bottom: -3px;
+  }
+  .nav-active & {
+    height: 20px;
+    &:before,
+    &:after {
+      top: 50%;
+    }
+    &:before {
+      @include rotate(45deg);
+    }
+    &:after {
+      @include rotate(-45deg);
+      bottom: auto;
+    }
+  }
+}
+#nav {
+  overflow: hidden;
+  @include media('>=desktop') {
+    text-align: right;
+  }
+  @include media('<desktop') {
+    position: fixed;
+    top: 59px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+    background: #e55943;
+    text-align: center;
+    padding: 40px 0;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    @include transition (opacity 0.3s ease-in-out,visibility 0.3s ease-in-out);
+    .nav-active & {
+      visibility: visible;
+      opacity: 1;
+    }
+    .resize-active & {
+      transition-duration: 0;
+      transition: none;
+    }
+  }
+  @include media('<desktop') {
+    padding: 9px 0;
+  }
+  ul {
+    @extend %listreset;
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -4px;
+    li {
+      @include media('>=desktop') {
+        display: inline-block;
+        vertical-align: top;
+      }
+      letter-spacing: 0;
+      font-size: 20px;
+      line-height: 1.2;
+      @include media('<desktop') {
+        font-size: 32px;
+      }
+      @include media('<tablet') {
+        font-size: 28px;
+      }
+    }
+  }
+  >ul {
+    @include media('<desktop') {
+      @include translate(0,10%);
+      @include transition (transform 0.3s ease-in-out);
+      margin-bottom: 15px;
+      .nav-active & {
+        @include translate(0,0);
+      }
+      .resize-active & {
+        transition-duration: 0;
+        transition: none;
+      }
+    }
+    >li {
+      @include media('>=desktop') {
+        margin-left: 42px;
+        padding-top: 7px;
+        text-align: left;
+      }
+      @include media('<tablet') {
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 1px;
+          background: #e97663;
+        }
+      }
+      &.active,
+      &:hover {
+        >a {
+          @include media('>=desktop') {
+            color: darken(#fff,70%);
+          }
+          @include media('<desktop') {
+            background: lighten(#e55943, 10%);
+          }
+        }
+      }
+      >a {
+        color: $white;
+        text-decoration: none;
+        @include media('<desktop') {
+          display: block;
+          padding: 31px 25px;
+        }
+         @include media('<tablet') {
+            padding: 14px 59px;
+            text-align: left;
+         }
+      }
+    }
+  }
+}

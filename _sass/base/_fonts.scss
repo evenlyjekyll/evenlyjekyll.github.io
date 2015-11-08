@@ -1,0 +1,73 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=af726dc3-82d4-4c46-b84a-e3160ecd1820");
+@font-face{
+  font-family:"Avenir_Light";
+  src:url("../fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix");
+  src:url("../fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix") format("eot"),
+    url("../fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2") format("woff2"),
+    url("../fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff") format("woff"),
+    url("../fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf") format("truetype"),
+    url("../fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c") format("svg");
+}
+@font-face{
+  font-family:"Avenir_Roman";
+  src:url("../fonts/57bf7902-79ee-4b31-a327-1bbf59a3d155.eot?#iefix");
+  src:url("../fonts/57bf7902-79ee-4b31-a327-1bbf59a3d155.eot?#iefix") format("eot"),
+    url("../fonts/b290e775-e0f9-4980-914b-a4c32a5e3e36.woff2") format("woff2"),
+    url("../fonts/4b978f72-bb48-46c3-909a-2a8cd2f8819c.woff") format("woff"),
+    url("../fonts/9bdf0737-f98c-477a-9365-ffc41b9d1285.ttf") format("truetype"),
+    url("../fonts/15281d0d-e3c2-46e1-94db-cb681e00bfaa.svg#15281d0d-e3c2-46e1-94db-cb681e00bfaa") format("svg");
+}
+@font-face{
+  font-family:"Avenir_Heavy";
+  src:url("../fonts/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix");
+  src:url("../fonts/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix") format("eot"),
+    url("../fonts/d513e15e-8f35-4129-ad05-481815e52625.woff2") format("woff2"),
+    url("../fonts/61bd362e-7162-46bd-b67e-28f366c4afbe.woff") format("woff"),
+    url("../fonts/ccd17c6b-e7ed-4b73-b0d2-76712a4ef46b.ttf") format("truetype"),
+    url("../fonts/20577853-40a7-4ada-a3fb-dd6e9392f401.svg#20577853-40a7-4ada-a3fb-dd6e9392f401") format("svg");
+}
+@font-face{
+  font-family:"Avenir_Black";
+  src:url("../fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix");
+  src:url("../fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix") format("eot"),
+    url("../fonts/c78eb7af-a1c8-4892-974b-52379646fef4.woff2") format("woff2"),
+    url("../fonts/75b36c58-2a02-4057-a537-09af0832ae46.woff") format("woff"),
+    url("../fonts/b5c44a82-eeb8-41de-9c3f-a8db50b24b8a.ttf") format("truetype"),
+    url("../fonts/93603a74-2be0-436c-83e1-68f9ef616eaf.svg#93603a74-2be0-436c-83e1-68f9ef616eaf") format("svg");
+}
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?5q412a');
+  src:url('../fonts/icomoon.eot?5q412a#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5q412a') format('truetype'),
+    url('../fonts/icomoon.woff?5q412a') format('woff'),
+    url('../fonts/icomoon.svg?5q412a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-email:before {
+  content: "\e900";
+}
+.icon-github:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+
