@@ -1,6 +1,5 @@
 ---
 layout: jobs
-classhd: FALSE
 title: Android Developer
 description: >
     We at nxtbgthng are constantly looking for talented iOS developers to join our team in Berlin.

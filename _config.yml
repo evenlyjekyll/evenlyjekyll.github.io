@@ -17,3 +17,6 @@ collections:
   jobs:
     permalink: /jobs/:path/
     output: true
+  projects:
+    permalink: /projects/:path/
+    output: true

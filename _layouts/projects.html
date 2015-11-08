@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% include projects/single-project/single-project-banner.html %}
+{% include projects/single-project/product-image-holder.html %}
+<div class="project-pagination">
+    {% for project in site.projects %}
+        {% if project.title == page.title %}
+            {% assign index = forloop.index  %}
+        {% endif %}
+    {% endfor %}
+    {% for project in site.projects %}
+        {% assign previous = index | minus:1  %}
+        {% if forloop.index == previous %}
+            <a href="{{ project.url }}" class="btn-prev"><span>Previous Project</span></a>
+        {% endif %}
+    {% endfor %}
+
+    <a href="/projects" class="btn-back"><span>Back to Projects</span></a>
+
+    {% for project in site.projects %}
+        {% assign next = index | plus:1  %}
+        {% if forloop.index == next %}
+            <a href="{{ project.url }}" class="btn-next"><span>Next Project</span></a>
+        {% endif %}
+    {% endfor %}
+</div>

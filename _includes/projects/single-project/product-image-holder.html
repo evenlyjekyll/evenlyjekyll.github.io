@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="project-image-holder">
+        <div class="row">
+            {% for picture in page.product-images %}
+            <div class="img-col">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source srcset="{{ picture.img-small }}, {{ page.img-small-2x }} 2x" media="(max-width: 767px)">
+                    <source srcset="{{ picture.img-medium }}, {{ page.img-medium-2x }} 2x" media="(max-width: 1023px)">
+                    <source srcset="{{ picture.img }}">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="{{ page.img }}" alt="{{ page.img-description }}">
+                </picture>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="project-btn-holder">
+            <a href="{{ page.appstore }}" class="btn-info">Check out on the AppStore</a>
+        </div>
+    </div>
+</div>
