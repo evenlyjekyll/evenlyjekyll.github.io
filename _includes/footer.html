@@ -1,6 +1,6 @@
 <footer id="footer">
   <div class="container">
-    <address>Evenly GmbH | Oranienstr. 6 | 10996 Berlin | <a href="tel:493060984272" class="tel">+49 30 60984272</a></address>
+    <address>{{ site.company_name }} | {{ site.address }} | {{ site.zip }} {{ site.city }} | <a href="tel:{{ site.phone | remove:' ' | remove:'+' }}" class="tel">{{ site.phone }}</a></address>
     <a href="#" class="btn-default">Legal Terms / Impressum</a>
   </div>
 </footer>
