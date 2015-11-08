@@ -8,11 +8,11 @@
                         <!-- picturefill: full manual control -->
                         <picture>
                             <!--[if IE 9]><video style="display: none;"><![endif]-->
-                            <source srcset="/images/img18.png, /images/img18-2x.png 2x" media="(max-width: 767px)">
-                            <source srcset="/images/img13-medium.png, /images/img13-medium-2x.png 2x" media="(max-width: 1024px)">
-                            <source srcset="/images/img13.png">
+                            <source srcset="{{ person.img-small }}, {{ person.img-small-2x }} 2x" media="(max-width: 767px)">
+                            <source srcset="{{ person.img-medium }}, {{ person.img-medium-2x }} 2x" media="(max-width: 1023px)">
+                            <source srcset="{{ person.img }}">
                             <!--[if IE 9]></video><![endif]-->
-                            <img src="img13.png" alt="image description">
+                            <img src="{{ person.img }}" alt="{{ person.img-description }}">
                         </picture>
                     </a>
                 </div>
