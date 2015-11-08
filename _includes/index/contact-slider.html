@@ -2,56 +2,18 @@
     <div class="slider-holder">
         <div class="mask">
             <div class="slideset">
-                <div class="slide">
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images/img02-small.png, images/img02-small-2x.png 2x" media="(max-width: 767px)">
-                        <source srcset="images/img02-medium.png, images/img02-medium-2x.png 2x" media="(max-width: 1023px)">
-                        <source srcset="images/img02.png">
-                        <!--[if IE 9]></video><![endif]-->
-                        <img src="/images/img02.png" alt="image description">
-                    </picture>
-                </div>
-                <div class="slide">
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images/img02-small.png, images/img02-small-2x.png 2x" media="(max-width: 767px)">
-                        <source srcset="images/img02-medium.png, images/img02-medium-2x.png 2x" media="(max-width: 1023px)">
-                        <source srcset="images/img02.png">
-                        <!--[if IE 9]></video><![endif]-->
-                        <img src="/images/img02.png" alt="image description">
-                    </picture>
-                </div>
-                <div class="slide">
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images/img02-small.png, images/img02-small-2x.png 2x" media="(max-width: 767px)">
-                        <source srcset="images/img02-medium.png, images/img02-medium-2x.png 2x" media="(max-width: 1023px)">
-                        <source srcset="images/img02.png">
-                        <!--[if IE 9]></video><![endif]-->
-                        <img src="/images/img02.png" alt="image description">
-                    </picture>
-                </div>
-                <div class="slide">
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images/img02-small.png, images/img02-small-2x.png 2x" media="(max-width: 767px)">
-                        <source srcset="images/img02-medium.png, images/img02-medium-2x.png 2x" media="(max-width: 1023px)">
-                        <source srcset="images/img02.png">
-                        <!--[if IE 9]></video><![endif]-->
-                        <img src="/images/img02.png" alt="image description">
-                    </picture>
-                </div>
-                <div class="slide">
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images/img02-small.png, images/img02-small-2x.png 2x" media="(max-width: 767px)">
-                        <source srcset="images/img02-medium.png, images/img02-medium-2x.png 2x" media="(max-width: 1023px)">
-                        <source srcset="images/img02.png">
-                        <!--[if IE 9]></video><![endif]-->
-                        <img src="/images/img02.png" alt="image description">
-                    </picture>
-                </div>
+                {% for project in site.projects %}
+                    <div class="slide">
+                        <picture>
+                            <!--[if IE 9]><video style="display: none;"><![endif]-->
+                            <source srcset="{{ project.hero-img-small }}, {{ project.hero-img-small-2x }} 2x" media="(max-width: 767px)">
+                            <source srcset="{{ project.hero-img-medium }}, {{ project.hero-img-medium-2x }} 2x" media="(max-width: 1023px)">
+                            <source srcset="{{ project.hero-img }}">
+                            <!--[if IE 9]></video><![endif]-->
+                            <img src="{{ project.hero-img }}" alt="{{ project.hero-img-description }}">
+                        </picture>
+                    </div>
+                {% endfor %}
             </div>
         </div>
         <a class="btn-prev" href="#">Previous</a>
@@ -60,5 +22,5 @@
     <div class="pagination">
         <!-- pagination generated here -->
     </div>
-    <a href="#" class="btn-primary">Contact us</a>
+    <a href="/contact" class="btn-primary">Contact us</a>
 </div>

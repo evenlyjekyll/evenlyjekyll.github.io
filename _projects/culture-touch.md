@@ -9,6 +9,13 @@ descriptions:
     - Together with the Swiss computer vision technology company Dacuda we built an app making use of their advanced computer vision technology. Using 3DAround you can caputure everyday objects like food and create a 3D model. This model can be uploaded and shared with your friends.
     - This app was built almost entirely in Swift using the latest iOS technologies available. It incorporates motion sensors and OpenGL and was built for iOS 8.
 
+hero-img: /images/img02.png
+hero-img-small: /images/img02-small.png
+hero-img-small-2x: /images/img02-small-2x.png
+hero-img-medium: /images/img02-medium.png
+hero-img-medium-2x: /images/img02-medium-2x.png
+hero-img-description: image description
+
 logo: /images/logo01.png
 img: /images/img06.png
 img-small: /images/img06-small.png
