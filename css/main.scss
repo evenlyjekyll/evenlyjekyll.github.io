@@ -1,26 +1,25 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
 $breakpoints: (
-  'xs-phone': 320px,
-  'phone': 480px,
-  'tablet': 768px,
-  'desktop': 1024px,
-  'large-desktop': 1200px,
-  'hd': 1440px
+        'xs-phone': 320px,
+        'phone': 400px,
+        'tablet': 768px,
+        'desktop': 1024px,
+        'large-desktop': 1200px,
+        'hd': 1440px
 );
 
 // keywords
 $media-expressions: (
-  'screen': 'screen',
-  'print': 'print',
-  'handheld': 'handheld',
-  'landscape': '(orientation: landscape)',
-  'portrait': '(orientation: portrait)',
-  'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
-  'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)'
+        'screen': 'screen',
+        'print': 'print',
+        'handheld': 'handheld',
+        'landscape': '(orientation: landscape)',
+        'portrait': '(orientation: portrait)',
+        'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
+        'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)'
 );
 
 // ligatured operators ≥ ≤
@@ -80,8 +79,12 @@ $media-expressions: (
   }
   .tvscreen-frame {
     margin: 0 auto 75px;
-    max-width: 945px;
+    max-width: 1200px;
     position: relative;
+    canvas {
+      width: 100%;
+      height: auto;
+    }
     @include media('<large-desktop') {
       max-width: 306px;
     }
@@ -89,7 +92,29 @@ $media-expressions: (
       max-width: 330px;
     }
     @include media('<tablet') {
+      max-width: 250px;
+      margin-bottom: 52px;
+    }
+    @include media('<phone') {
       max-width: 199px;
+    }
+  }
+  .animation-frame {
+    margin: 0 auto 75px;
+    max-width: 1200px;
+    position: relative;
+    .img-screen {
+      position: relative;
+      left: 50%;
+      min-width: 390px;
+    }
+    canvas {
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin-left: -50%;
+    }
+    @include media('<tablet') {
       margin-bottom: 52px;
     }
   }
@@ -118,8 +143,10 @@ $media-expressions: (
       padding: 100px 22px 185px;
     }
     @include media('<tablet') {
-      font-size: 22px;
       padding: 60px 20px 72px;
+    }
+    @include media('<phone') {
+      font-size: 22px;
     }
     p {
       margin-bottom: 32px;
@@ -192,16 +219,13 @@ $media-expressions: (
   position: relative;
   text-align: center;
   padding: 0 42px;
-  @include media('<large-desktop') {
-    // max-width: 940px;
-  }
   @include media('<desktop') {
     margin-bottom: 120px;
     padding: 0 30px;
   }
   @include media('<tablet') {
     margin-bottom: 101px;
-    padding: 0;
+    padding: 0 10px;
     .btn-primary {
       padding-top: 13px;
       padding-bottom: 13px;
@@ -209,22 +233,21 @@ $media-expressions: (
   }
   .slider-holder {
     position: relative;
-    padding: 0 40px;
-    @include media('<tablet') {
-      padding: 0 14px;
+    padding: 0 80px;
+    @include media('<desktop') {
+      padding: 0;
     }
   }
   .mask {
     margin: 0 auto 59px;
-    max-width: 780px;
     overflow: hidden;
+    text-align: center;
     img {
-      width: 100%;
+      max-width: 100%;
       height: auto;
       vertical-align: top;
     }
     @include media('<desktop') {
-      max-width: none;
       margin-bottom: 46px;
     }
     @include media('<tablet') {
@@ -316,16 +339,21 @@ $media-expressions: (
     margin-bottom: 120px;
   }
   @include media('<tablet') {
-    margin: 0 -5px 66px;
-    max-width: none;
+    margin: 0 auto 66px;
+    max-width: 350px;
+  }
+  @include media('<phone') {
+    max-width: 270px;
   }
   h2 {
     color: #ec7054;
     font: 400 35px/1.25 'Avenir_Black';
     margin-bottom: 104px;
     @include media('<tablet') {
-      font-size: 24px;
       margin-bottom: 42px;
+    }
+    @include media('<phone') {
+      font-size: 24px;
     }
   }
   .team-member-holder {
@@ -334,7 +362,7 @@ $media-expressions: (
     letter-spacing: -4px;
     margin: 0 -13px;
     @include media('<tablet') {
-      margin: 0 -6px;
+      margin: 0 -11px;
     }
   }
   .team-member {
@@ -350,6 +378,7 @@ $media-expressions: (
     @include media('<tablet') {
       padding: 0 6px;
       margin-bottom: 36px;
+      width: 50%;
     }
     .img-holder {
       border-radius: 50%;
@@ -362,8 +391,10 @@ $media-expressions: (
         height: auto;
       }
       @include media('<tablet') {
-        margin-bottom: 4px;
-        width: 84px;
+        width: 150px;
+      }
+      @include media('<phone') {
+        width: 110px;
       }
     }
     .name {
@@ -377,7 +408,10 @@ $media-expressions: (
         }
       }
       @include media('<tablet') {
-        font-size: 11px;
+        font-size: 20px;
+      }
+      @include media('<phone') {
+        font-size: 16px;
       }
     }
   }
@@ -394,6 +428,10 @@ $media-expressions: (
   &:hover {
     background: #7b7b7b;
     color: #fff;
+  }
+  @include media('<tablet') {
+    font-size: 14px;
+    padding: 15px;
   }
 }
 .projects-banner {
@@ -413,6 +451,31 @@ $media-expressions: (
     padding-bottom: 45px;
     margin-bottom: 49px;
   }
+  .animation-frame {
+    margin: 0 auto 77px;
+    max-width: 1200px;
+    position: relative;
+    .img-screen {
+      position: relative;
+      left: 50%;
+      min-width: 390px;
+    }
+    canvas {
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin-left: -50%;
+    }
+    @include media('<large-desktop') {
+      margin-bottom: 33px;
+    }
+    @include media('<desktop') {
+      margin-bottom: 93px;
+    }
+    @include media('<tablet') {
+      margin-bottom: 10px;
+    }
+  }
   .tvscreen-frame {
     margin: 0 auto 77px;
     max-width: 306px;
@@ -426,8 +489,11 @@ $media-expressions: (
       margin-bottom: 93px;
     }
     @include media('<tablet') {
-      max-width: 256px;
+      max-width: 320px;
       margin-bottom: 10px;
+    }
+    @include media('<phone') {
+      max-width: 256px;
     }
   }
   .img-screen {
@@ -452,12 +518,15 @@ $media-expressions: (
       padding-top: 147px;
     }
     @include media('<tablet') {
+      padding-top: 130px;
+    }
+    @include media('<phone') {
       padding-top: 102px;
     }
   }
   h1 {
     font: 400 35px/1.2 'Avenir_Black';
-    @include media('<tablet') {
+    @include media('<phone') {
       font-size: 24px;
     }
   }
@@ -782,8 +851,10 @@ $media-expressions: (
       margin-bottom: 96px;
     }
     @include media('<tablet') {
-      font-size: 24px;
       margin-bottom: 48px;
+    }
+    @include media('<phone') {
+      font-size: 24px;
     }
   }
   .text-box {
@@ -802,13 +873,15 @@ $media-expressions: (
       padding: 4px 0 0;
     }
     @include media('<tablet') {
-      font-size: 14px;
       line-height: 1.37;
       overflow: hidden;
       margin: 0 0 49px;
       p {
         margin-bottom: 18px;
       }
+    }
+    @include media('<phone') {
+      font-size: 14px;
     }
   }
   .img-holder {
@@ -833,6 +906,11 @@ $media-expressions: (
       padding: 25px 20px 4px;
       .img {
         margin: 0 auto;
+        max-width: 340px;
+      }
+    }
+    @include media('<phone') {
+      .img {
         max-width: 278px;
       }
     }
@@ -864,9 +942,11 @@ $media-expressions: (
     }
     @include media('<tablet') {
       padding: 0 4px;
-      margin-bottom: 17px;
+      max-width: 348px;
+      margin: 0 auto 17px;
+    }
+    @include media('<phone') {
       max-width: 286px;
-      margin: 0 auto;
     }
   }
   img {
@@ -916,7 +996,7 @@ $media-expressions: (
     letter-spacing: 0;
     margin: 0 10px;
     color: #7b7b7b;
-   font: 400 12px/20px 'Avenir_Heavy';
+    font: 400 12px/20px 'Avenir_Heavy';
     text-decoration: none;
     span {
       display: block;
@@ -1009,6 +1089,12 @@ $media-expressions: (
   @include media('<desktop') {
     max-width: 626px;
   }
+  @include media('<tablet') {
+    max-width: 334px;
+  }
+  @include media('<phone') {
+    max-width: 270px;
+  }
   .project-btn-holder {
     padding-top: 25px;
     @include media('<tablet') {
@@ -1079,7 +1165,7 @@ $media-expressions: (
     @include media('<desktop') {
       max-width: 500px;
     }
-    @include media('<tablet') {
+    @include media('<phone') {
       font-size: 22px;
     }
   }
@@ -1100,8 +1186,10 @@ $media-expressions: (
       margin-bottom: 40px;
     }
     @include media('<tablet') {
-      font-size: 24px;
       margin-bottom: 52px;
+    }
+    @include media('<phone') {
+      font-size: 24px;
     }
   }
   p {
@@ -1126,13 +1214,19 @@ $media-expressions: (
       background: #fff;
       color: #e55943;
     }
-    @include media('<tablet') {
+    @include media('<phone') {
       font-size: 14px;
       padding: 9px 20px;
     }
   }
 }
 .team-member-block {
+  @include media('<tablet') {
+    max-width: 400px !important;
+  }
+  @include media('<phone') {
+    max-width: 320px !important;
+  }
   h2 {
     color: #ec7054;
     font: 400 35px/1.3 'Avenir_Black';
@@ -1191,8 +1285,10 @@ $media-expressions: (
         margin-bottom: 23px;
       }
       @include media('<tablet') {
-        width: 100px;
         margin-bottom: 14px;
+      }
+      @include media('<phone') {
+        width: 100px;
       }
       img {
         vertical-align: top;
@@ -1208,8 +1304,10 @@ $media-expressions: (
         margin-bottom: 19px;
       }
       @include media('<tablet') {
-        font-size: 16px;
         margin-bottom: 10px;
+      }
+      @include media('<phone') {
+        font-size: 16px;
       }
       a {
         color: #ec7054;
@@ -1240,8 +1338,10 @@ $media-expressions: (
       margin-bottom: 27px;
     }
     @include media('<tablet') {
-      font-size: 12px;
       margin-bottom: 17px;
+    }
+    @include media('<phone') {
+      font-size: 12px;
     }
     a {
       color: #8e8e8e;
@@ -1257,7 +1357,7 @@ $media-expressions: (
         font-size: 26px;
         line-height: 1;
         color: #e55943;
-        @include media('<tablet') {
+        @include media('<phone') {
           font-size: 16px;
         }
       }
@@ -1267,7 +1367,7 @@ $media-expressions: (
           margin-bottom: 10px;
           background-position: -1px 0;
           font-size: 17px;
-          @include media('<tablet') {
+          @include media('<phone') {
             font-size: 10px;
             margin-bottom: 6px;
           }
@@ -1279,7 +1379,7 @@ $media-expressions: (
           font-size: 22px;
           background-position: -35px 0;
           margin-bottom: 9px;
-          @include media('<tablet') {
+          @include media('<phone') {
             font-size: 14px;
             margin-bottom: 5px;
           }
@@ -1302,6 +1402,10 @@ $media-expressions: (
   @include media('<tablet') {
     padding-top: 51px;
     line-height: 1.37;
+    font-size: 19px;
+  }
+  @include media('<phone') {
+    font-size: 16px;
   }
   p {
     margin-bottom: 48px;
@@ -1336,8 +1440,10 @@ $media-expressions: (
     font: 400 35px/1.3 'Avenir_Black';
     margin-bottom: 37px;
     @include media('<tablet') {
-      font-size: 24px;
       margin-bottom: 47px;
+    }
+    @include media('<phone') {
+      font-size: 24px;
     }
   }
   .text {
@@ -1384,9 +1490,13 @@ $media-expressions: (
         padding: 0;
         line-height: 1.37;
         margin-bottom: 22px;
+        font-size: 19px;
         &:nth-child(2) {
           margin-bottom: 0;
         }
+      }
+      @include media('<phone') {
+        font-size: 16px;
       }
       @include media('>=desktop') {
         font-size: 19px;
@@ -1465,7 +1575,7 @@ $media-expressions: (
     @include media('<desktop') {
       margin-bottom: 108px;
     }
-    @include media('<tablet') {
+    @include media('<phone') {
       font-size: 43px;
       margin-bottom: 136px;
     }
@@ -1492,7 +1602,7 @@ $media-expressions: (
   h2 {
     font: 400 35px/1.3 'Avenir_Black';
     margin-bottom: 52px;
-    @include media('<tablet') {
+    @include media('<phone') {
       font-size: 24px;
       line-height: 1.37;
       margin-bottom: 43px;
@@ -1509,7 +1619,7 @@ $media-expressions: (
   h2 {
     font: 400 35px/1.3 'Avenir_Black';
     margin-bottom: 67px;
-    @include media('<tablet') {
+    @include media('<phone') {
       font-size: 24px;
       margin-bottom: 48px;
     }
@@ -1555,7 +1665,6 @@ $media-expressions: (
     font-size: 20px;
     line-height: 24px;
     padding: 17px 35px;
-    @include media('<tablet') 
   }
 }
 .contact-block {
@@ -1576,7 +1685,7 @@ $media-expressions: (
   h1 {
     font: 400 35px/1.3 'Avenir_Black';
     margin-bottom: 51px;
-    @include media('<tablet') {
+    @include media('<phone') {
       font-size: 24px;
     }
   }
@@ -1594,6 +1703,9 @@ $media-expressions: (
     position: relative;
     overflow: hidden;
     @include media('<tablet') {
+      max-width: 300px;
+    }
+    @include media('<phone') {
       margin-bottom: 43px;
       max-width: 220px;
     }

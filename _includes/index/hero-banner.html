@@ -1,21 +1,28 @@
 <div class="hero-banner">
-    <div class="tvscreen-frame">
+    <div class="animation-frame">
         <div class="img-screen">
-            <picture>
-                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                <source srcset="images/img15-small.png, images/img15-small-2x.png 2x" media="(max-width: 767px)">
-                <source srcset="images/img15.png, images/img15-2x.png 2x" media="(max-width: 1023px)">
-                <source srcset="images/img04.png" media="(max-width: 1199px)">
-                <source srcset="images/img01.png">
-                <!--[if IE 9]></video><![endif]-->
-                <img src="/images/img01.png" alt="image description">
-            </picture>
-        </div>
-        <div class="box-holder">
-            <div class="text-box">
-                <p>The future is <br>already here.</p>
-                <p>We want  <br>to help you <br>be part of it.</p>
-            </div>
+            <canvas data-url="js/canvasApi/" id="canvas" width="1200" height="700" style="background-color:#E55943"></canvas>
         </div>
     </div>
+    <noscript>
+        <div class="tvscreen-frame">
+            <div class="img-screen">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source srcset="images/img15-small.png, images/img15-small-2x.png 2x" media="(max-width: 767px)">
+                    <source srcset="images/img15.png, images/img15-2x.png 2x" media="(max-width: 1023px)">
+                    <source srcset="images/img04.png" media="(max-width: 1199px)">
+                    <source srcset="images/img01.png">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="img01.png" alt="image description">
+                </picture>
+            </div>
+            <div class="box-holder">
+                <div class="text-box">
+                    <p>The future is <br>already here.</p>
+                    <p>We want  <br>to help you <br>be part of it.</p>
+                </div>
+            </div>
+        </div>
+    </noscript>
 </div>

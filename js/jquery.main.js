@@ -3,7 +3,115 @@ jQuery(function(){
 	initCycleCarousel();
 	initMobileNav();
 	initSameHeight();
+	initAnimationLayout();
 });
+
+// responsive layout handling
+function initAnimationLayout() {
+	var сanvas = document.getElementById('canvas');
+	var myScript = document.getElementById('canvasApi');
+	var url = сanvas.getAttribute('data-url');
+
+	var phone = 'DHD07.js';
+	var tablet = 'DHD08.js';
+	var desktop = 'DHD09.js';
+	var lDesktop = 'DHD10.js';
+	var nameHD = 'DHD11.js';
+
+	// handle layout resize
+	ResponsiveHelper.addRange({
+		'..767': {
+			on: function() {
+				myScript.src = url + phone;
+
+				myScript.onload = function() {
+					var stage, exportRoot;
+
+					exportRoot = new lib.DHD7();
+
+					stage = new createjs.Stage(canvas);
+					stage.addChild(exportRoot);
+					stage.update();
+
+					createjs.Ticker.setFPS(lib.properties.fps);
+					createjs.Ticker.addEventListener("tick", stage);
+				};
+			}
+		},
+		'768..1023': {
+			on: function() {
+				myScript.src = url + tablet;
+
+				myScript.onload = function() {
+					var stage, exportRoot;
+
+					exportRoot = new lib.DHD8();
+
+					stage = new createjs.Stage(canvas);
+					stage.addChild(exportRoot);
+					stage.update();
+
+					createjs.Ticker.setFPS(lib.properties.fps);
+					createjs.Ticker.addEventListener("tick", stage);
+				};
+			}
+		},
+		'1024..1199': {
+			on: function() {
+				myScript.src = url + desktop;
+
+				myScript.onload = function() {
+					var stage, exportRoot;
+
+					exportRoot = new lib.DHD9();
+
+					stage = new createjs.Stage(canvas);
+					stage.addChild(exportRoot);
+					stage.update();
+
+					createjs.Ticker.setFPS(lib.properties.fps);
+					createjs.Ticker.addEventListener("tick", stage);
+				};
+			}
+		},
+		'1200..1439': {
+			on: function() {
+				myScript.src = url + lDesktop;
+
+				myScript.onload = function() {
+					var stage, exportRoot;
+
+					exportRoot = new lib.DHD10();
+
+					stage = new createjs.Stage(canvas);
+					stage.addChild(exportRoot);
+					stage.update();
+
+					createjs.Ticker.setFPS(lib.properties.fps);
+					createjs.Ticker.addEventListener("tick", stage);
+				};
+			}
+		},
+		'1440..': {
+			on: function() {
+				myScript.src = url + nameHD;
+
+				myScript.onload = function() {
+					var stage, exportRoot;
+
+					exportRoot = new lib.test();
+
+					stage = new createjs.Stage(canvas);
+					stage.addChild(exportRoot);
+					stage.update();
+
+					createjs.Ticker.setFPS(lib.properties.fps);
+					createjs.Ticker.addEventListener("tick", stage);
+				};
+			}
+		}
+	});
+}
 
 // cycle scroll gallery init
 function initCycleCarousel() {
@@ -39,6 +147,115 @@ function initSameHeight() {
 		multiLine: true
 	});
 }
+
+
+/*
+ * Responsive Layout helper
+ */
+ResponsiveHelper = (function($){
+	// init variables
+	var handlers = [],
+		prevWinWidth,
+		win = $(window),
+		nativeMatchMedia = false;
+
+	// detect match media support
+	if(window.matchMedia) {
+		if(window.Window && window.matchMedia === Window.prototype.matchMedia) {
+			nativeMatchMedia = true;
+		} else if(window.matchMedia.toString().indexOf('native') > -1) {
+			nativeMatchMedia = true;
+		}
+	}
+
+	// prepare resize handler
+	function resizeHandler() {
+		var winWidth = win.width();
+		if(winWidth !== prevWinWidth) {
+			prevWinWidth = winWidth;
+
+			// loop through range groups
+			$.each(handlers, function(index, rangeObject){
+				// disable current active area if needed
+				$.each(rangeObject.data, function(property, item) {
+					if(item.currentActive && !matchRange(item.range[0], item.range[1])) {
+						item.currentActive = false;
+						if(typeof item.disableCallback === 'function') {
+							item.disableCallback();
+						}
+					}
+				});
+
+				// enable areas that match current width
+				$.each(rangeObject.data, function(property, item) {
+					if(!item.currentActive && matchRange(item.range[0], item.range[1])) {
+						// make callback
+						item.currentActive = true;
+						if(typeof item.enableCallback === 'function') {
+							item.enableCallback();
+						}
+					}
+				});
+			});
+		}
+	}
+	win.bind('load resize orientationchange', resizeHandler);
+
+	// test range
+	function matchRange(r1, r2) {
+		var mediaQueryString = '';
+		if(r1 > 0) {
+			mediaQueryString += '(min-width: ' + r1 + 'px)';
+		}
+		if(r2 < Infinity) {
+			mediaQueryString += (mediaQueryString ? ' and ' : '') + '(max-width: ' + r2 + 'px)';
+		}
+		return matchQuery(mediaQueryString, r1, r2);
+	}
+
+	// media query function
+	function matchQuery(query, r1, r2) {
+		if(window.matchMedia && nativeMatchMedia) {
+			return matchMedia(query).matches;
+		} else if(window.styleMedia) {
+			return styleMedia.matchMedium(query);
+		} else if(window.media) {
+			return media.matchMedium(query);
+		} else {
+			return prevWinWidth >= r1 && prevWinWidth <= r2;
+		}
+	}
+
+	// range parser
+	function parseRange(rangeStr) {
+		var rangeData = rangeStr.split('..');
+		var x1 = parseInt(rangeData[0], 10) || -Infinity;
+		var x2 = parseInt(rangeData[1], 10) || Infinity;
+		return [x1, x2].sort(function(a, b){
+			return a - b;
+		});
+	}
+
+	// export public functions
+	return {
+		addRange: function(ranges) {
+			// parse data and add items to collection
+			var result = {data:{}};
+			$.each(ranges, function(property, data){
+				result.data[property] = {
+					range: parseRange(property),
+					enableCallback: data.on,
+					disableCallback: data.off
+				};
+			});
+			handlers.push(result);
+
+			// call resizeHandler to recalculate all events
+			prevWinWidth = null;
+			resizeHandler();
+		}
+	};
+}(jQuery));
 
 /*
  * jQuery Cycle Carousel plugin
