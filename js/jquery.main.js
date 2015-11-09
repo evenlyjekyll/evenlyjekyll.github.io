@@ -10,7 +10,7 @@ jQuery(function(){
 function initAnimationLayout() {
 	var сanvas = document.getElementById('canvas');
 	var myScript = document.getElementById('canvasApi');
-	var url = сanvas.getAttribute('data-url');
+	var url = "/" + сanvas.getAttribute('data-url');
 
 	var phone = 'DHD07.js';
 	var tablet = 'DHD08.js';
