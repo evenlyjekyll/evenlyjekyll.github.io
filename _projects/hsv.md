@@ -4,8 +4,8 @@ customclass: hsv
 title: Hamburger SV
 appstore: http://google.com
 small-description: We build the app for the HSV soccer club on behalf of SPORTFIVE.
-descriptions:
-    - We build the app for the HSV on behalf of SPORTFIVE.
+description:  |
+    We build the app for the HSV on behalf of SPORTFIVE.
 
 hero-img: /images/img02.png
 hero-img-small: /images/img02-small.png
