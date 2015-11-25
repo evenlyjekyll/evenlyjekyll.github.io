@@ -4,7 +4,7 @@ customclass: culture
 appstore: http://google.com
 title: ARTE Culture Touch
 small-description: Together with Studio GOOD we concepted, designed and built a tablet magazine for ARTE to promote the great culture content available on ARTE.
-description:
+description:  |
    Culture Touch: the latest in culture as seen on ARTE in a digital weekly magazine. Every Friday, Culture Touch brings a selection of the most interesting exhibitions, shows, films, books, albums and events to keep you up to date with everything that's happening in the world of culture.
 
    Together with Studio GOOD we concepted, designed and built a tablet magazine for ARTE to promote the great culture content available on ARTE. In addition to the app we also built a backend for letting the editors create the beautiful multimedia issues that make up Culture Touch.

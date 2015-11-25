@@ -4,7 +4,7 @@ title: SoundCloud
 customclass: soundcloud
 appstore: http://itunes.apple.com/us/app/soundcloud/id336353151
 small-description: SoundCloud is one of the biggest places for sharing music and sounds on the web. We built their first app.
-descriptions:
+description:  |
     [SoundCloud](http://soundcloud.com) is one of the biggest places for sharing music and sounds on the web.
     
     Since 2008 nxtbgthng supported SoundCloud in the development of the official SoundCloud app for iPhone and iPad. We built the app from the ground up and helped build the iPad user interface that was launched in the fall of 2011. At the end of 2012 development was handed over to SoundCloud's internal team.
