@@ -2,7 +2,7 @@
 layout: projects
 customclass: arte
 appstore: http://google.com
-title: Arte
+title: ARTE
 small-description: Together with Novoda and Studio GOOD nxtbgthng reimagined the iPhone, iPad and Android apps for ARTE, the French-German TV channel.
 appstore: http://google.com
 descriptions:

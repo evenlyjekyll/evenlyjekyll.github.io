@@ -22,6 +22,36 @@ $media-expressions: (
         'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)'
 );
 
+$project-background-colors: (
+        'culture':rgb(58,75,92),
+        'arte': rgb(250,72,28),
+        'rbmar': rgb(35,37,36),
+        'bvb': rgb(252,219,12),
+        'hsv': rgb(1,85,164),
+        'digital': #ffd305,
+        'impossible': #d7d7d7,
+        'soundcloud': #ff8c0e,
+        'trivago': #7b7b7b,
+        'carhartt':  #0e0e0e,
+        'semperoper': rgb(210,35,42)
+);
+
+$project-foreground-colors: (
+        'culture':#fff,
+        'arte': #fff,
+        'rbmar': #fff,
+        'bvb': #000,
+        'hsv': #fff,
+        'digital': #4c4c4c,
+        'impossible': rgb(61,61,59),
+        'soundcloud': #0c0c0c,
+        'trivago': #000,
+        'carhartt': #fff,
+        'semperoper': #fff
+);
+
+
+
 // ligatured operators ≥ ≤
 
 @import 'base/fonts';
@@ -545,6 +575,54 @@ $media-expressions: (
     }
   }
 }
+.single-project-banner {
+    @each $project, $background in $project-background-colors {
+        &.#{$project} {
+            background: #{$background};
+        }          
+    }
+    @each $project, $foreground in $project-foreground-colors {
+        &.#{$project} {
+            color: #{$foreground};
+        }          
+    }  
+}
+.project-image-holder {
+    a.btn-info {
+        @each $project, $background in $project-background-colors {
+            &.#{$project} {
+                background: #{$background};
+                &:hover {
+                    color: #{$background};
+                    border-color: #{$background};
+                }
+            }          
+        }
+        @each $project, $foreground in $project-foreground-colors {
+            &.#{$project} {
+                color: #{$foreground};
+                &:hover {
+                    background-color: #{$foreground};
+                }                
+            }          
+        }  
+    }
+}
+#header {
+  &.project {
+      @each $project, $background in $project-background-colors {
+          &.#{$project} {
+              background: #{$background};
+          }
+      }
+      @each $project, $foreground in $project-foreground-colors {
+          &.#{$project} {
+              color: #{$foreground};
+          }                        
+      }      
+  }
+}
+
 .projects-item-holder {
   font-size: 0;
   line-height: 0;
@@ -633,120 +711,28 @@ $media-expressions: (
         padding: 11px;
       }
     }
-    &.culture {
-      background: #000;
-      color: #db2023;
-      .btn {
-        border-color: #9f0215;
-        color: #db2023;
-        &:hover {
-          background: #9f0215;
-          color: #000;
-        }
-      }
+    @each $project, $background in $project-background-colors {
+        &.#{$project} {
+          background-color: #{$background};
+          .btn {
+            &:hover {
+              color: #{$background};
+            }
+          }
+        }    
     }
-    &.arte {
-      background: #d0021b;
-      .btn {
-        &:hover {
-          color: #d0021b;
-        }
-      }
-    }
-    &.digital {
-      background: #ffd305;
-      color: #4c4c4c;
-      .btn {
-        border-color: #554f34;
-        color: #4c4c4c;
-        &:hover {
-          background: #554f34;
-          color: #ffd305;
-        }
-      }
-    }
-    &.impossible {
-      background: #d7d7d7;
-      color: #ff5012;
-      .btn {
-        border-color: #ff3711;
-        color: #ff5012;
-        &:hover {
-          background: #ff3711;
-          color: #d7d7d7;
-        }
-      }
-    }
-    &.soundcloud {
-      background: #ff8c0e;
-      color: #0c0c0c;
-      .btn {
-        border-color: #0b0b0b;
-        color: #0b0b0b;
-        &:hover {
-          background: #0b0b0b;
-          color: #ff8c0e;
-        }
-      }
-    }
-    &.trivago {
-      background: #7b7b7b;
-      .btn {
-        &:hover {
-          color: #7b7b7b;
-        }
-      }
-    }
-    &.carhartt {
-      background: #0e0e0e;
-      .btn {
-        &:hover {
-          color: #0e0e0e;
-        }
-      }
-    }
-    &.semperoper {
-      background: #f5f5f5;
-      color: #0c0c0c;
-      .btn {
-        border-color: #0b0b0b;
-        color: #0b0b0b;
-        &:hover {
-          background: #0b0b0b;
-          color: #f5f5f5;
-        }
-      }
-    }
-    &.red-bull {
-      background: #3b3b3b;
-      color: #ff5012;
-      .title {
-        margin-bottom: 16px;
-      }
-      .text-holder {
-        margin-bottom: 20px;
-      }
-      .btn {
-        border-color: #e53817;
-        color: #ff5012;
-        &:hover {
-          background: #e53817;
-          color: #3b3b3b;
-        }
-      }
-    }
-    &.sleek {
-      background: #eaded1;
-      color: #5c5c5c;
-      .btn {
-        border-color: #5f5e5c;
-        color: #5c5c5c;
-        &:hover {
-          background: #5f5e5c;
-          color: #eaded1;
-        }
-      }
-    }
+    @each $project, $foreground in $project-foreground-colors {
+        &.#{$project} {
+          color: #{$foreground};
+          .btn {
+            border-color: #{$foreground};
+            color: #{$foreground};              
+            &:hover {
+              background-color: #{$foreground};
+            }
+          }
+        }    
+    }  
   }
 }
 .single-project-banner {
