@@ -1,3 +1,39 @@
+- firstname: Thomas
+  lastname: Kollbach
+  email: toto@evenly.io
+  twitter: mrtoto
+  github: toto
+  img: /images/img13.png
+  img-small: /images/img13-small.png
+  img-small-2x: /images/img13-small-2x.png
+  img-medium: /images/img13-medium.png
+  img-medium-2x: /images/img13-medium-2x.png
+  img-description: image description
+  
+- firstname: Andreas
+  lastname: Goese
+  email: andreas@evenly.io
+  twitter: andi357
+  github: andi357
+  img: /images/img13.png
+  img-small: /images/img13-small.png
+  img-small-2x: /images/img13-small-2x.png
+  img-medium: /images/img13-medium.png
+  img-medium-2x: /images/img13-medium-2x.png
+  img-description: image description
+  
+- firstname: Thomas
+  lastname: Heß
+  email: tom@evenly.io
+  twitter: antiraum
+  github: antiraum
+  img: /images/img13.png
+  img-small: /images/img13-small.png
+  img-small-2x: /images/img13-small-2x.png
+  img-medium: /images/img13-medium.png
+  img-medium-2x: /images/img13-medium-2x.png
+  img-description: image description
+
 - firstname: Michal
   lastname: Thompson
   email: michal@evenly.io
@@ -10,11 +46,9 @@
   img-medium-2x: /images/img13-medium-2x.png
   img-description: image description
   
-- firstname: Michal
-  lastname: Thompson
-  email: michal@evenly.io
-  twitter: flashman1234
-  github: flashman1234
+- firstname: Sevil
+  lastname: Okur
+  email: sevil@evenly.io
   img: /images/img13.png
   img-small: /images/img13-small.png
   img-small-2x: /images/img13-small-2x.png
@@ -22,11 +56,21 @@
   img-medium-2x: /images/img13-medium-2x.png
   img-description: image description
   
-- firstname: Michal
-  lastname: Thompson
-  email: michal@evenly.io
-  twitter: flashman1234
-  github: flashman1234
+- firstname: Kevin
+  lastname: Bettin
+  email: kevin@evenly.io
+  img: /images/img13.png
+  img-small: /images/img13-small.png
+  img-small-2x: /images/img13-small-2x.png
+  img-medium: /images/img13-medium.png
+  img-medium-2x: /images/img13-medium-2x.png
+  img-description: image description
+
+- firstname: Jörg
+  lastname: Bühmann
+  email: joerg@evenly.io
+  twitter: orkoden
+  github: orkoden
   img: /images/img13.png
   img-small: /images/img13-small.png
   img-small-2x: /images/img13-small-2x.png
@@ -34,15 +78,25 @@
   img-medium-2x: /images/img13-medium-2x.png
   img-description: image description
   
-- firstname: Michal
-  lastname: Thompson
-  email: michal@evenly.io
-  twitter: flashman1234
-  github: flashman1234
+- firstname: Judith
+  lastname: Lindemann
+  email: judith@evenly.io
   img: /images/img13.png
   img-small: /images/img13-small.png
   img-small-2x: /images/img13-small-2x.png
   img-medium: /images/img13-medium.png
   img-medium-2x: /images/img13-medium-2x.png
   img-description: image description
-  
+
+- firstname: Anna-Lena
+  lastname: König
+  email: annalena@evenly.io
+  twitter: blog_bleistift
+  img: /images/img13.png
+  img-small: /images/img13-small.png
+  img-small-2x: /images/img13-small-2x.png
+  img-medium: /images/img13-medium.png
+  img-medium-2x: /images/img13-medium-2x.png
+  img-description: image description
+
+ 

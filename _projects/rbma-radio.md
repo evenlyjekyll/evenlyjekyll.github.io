@@ -1,13 +1,11 @@
 ---
 layout: projects
-customclass: culture
+title: RedBull Music Academy Radio
+customclass: rbmar
 appstore: http://google.com
-title: ARTE Culture Touch
-small-description: Together with Studio GOOD we concepted, designed and built a tablet magazine for ARTE to promote the great culture content available on ARTE.
+small-description: Together with EdenSpiekermann…
 descriptions:
-    - 3DAround is food photography in 3D. It allows you to capture your food (or really almost any object) in 3D using only the camera in your iPhone.
-    - Together with the Swiss computer vision technology company Dacuda we built an app making use of their advanced computer vision technology. Using 3DAround you can caputure everyday objects like food and create a 3D model. This model can be uploaded and shared with your friends.
-    - This app was built almost entirely in Swift using the latest iOS technologies available. It incorporates motion sensors and OpenGL and was built for iOS 8.
+    - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 hero-img: /images/img02.png
 hero-img-small: /images/img02-small.png
