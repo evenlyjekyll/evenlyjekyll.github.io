@@ -3,12 +3,16 @@ layout: projects
 customclass: arte
 appstore: http://google.com
 title: ARTE
-small-description: Together with Novoda and Studio GOOD nxtbgthng reimagined the iPhone, iPad and Android apps for ARTE, the French-German TV channel.
+small-description: Together with Novoda and Studio GOOD evenly reimagined the iPhone, iPad and Android apps for ARTE, the French-German TV channel.
 appstore: http://google.com
-descriptions:
-    - 3DAround is food photography in 3D. It allows you to capture your food (or really almost any object) in 3D using only the camera in your iPhone.
-    - Together with the Swiss computer vision technology company Dacuda we built an app making use of their advanced computer vision technology. Using 3DAround you can caputure everyday objects like food and create a 3D model. This model can be uploaded and shared with your friends.
-    - This app was built almost entirely in Swift using the latest iOS technologies available. It incorporates motion sensors and OpenGL and was built for iOS 8.
+description:  |
+   Culture Touch: the latest in culture as seen on ARTE in a digital weekly magazine. Every Friday, Culture Touch brings a selection of the most interesting exhibitions, shows, films, books, albums and events to keep you up to date with everything that's happening in the world of culture.
+   
+   Together with Studio GOOD we concepted, designed and built a tablet magazine for ARTE to promote the great culture content available on ARTE. In addition to the app we also built a backend for letting the editors create the beautiful multimedia issues that make up Culture Touch.
+   
+   Enjoy!
+
+    
 
 hero-img: /images/img02.png
 hero-img-small: /images/img02-small.png
