@@ -1,9 +1,9 @@
 # Evenly
 
 ## Workflow for evenly
-1. Clone from [https://github.com/evenlyio/evenly.github.io](https://github.com/evenlyio/evenly.github.io)
+1. Clone from [https://github.com/nandorocker/evenly.github.io](https://github.com/nandorocker/evenly.github.io)
 2. Create local branch and make your changes
-3. Push branch to [https://github.com/evenlyio/evenly.github.io](https://github.com/evenlyio/evenly.github.io)
+3. Push branch to [https://github.com/nandorocker/evenly.github.io](https://github.com/nandorocker/evenly.github.io)
 4. Create pull request at [https://github.com/nandorocker/evenly.github.io](https://github.com/nandorocker/evenly.github.io)
 
 ## Building the website locally
