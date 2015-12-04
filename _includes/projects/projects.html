@@ -15,9 +15,17 @@
                     <div class="btn-col">
                         <a href="{{ project.url }}" class="btn">Tell me more</a>
                     </div>
+                    {% if project.appstore %}
                     <div class="btn-col">
-                        <a href="{{ project.appstore }}" class="btn">AppStore</a>
+                        <a href="{{ project.appstore }}" title="{{ project.title }} on the Apple App Store" class="btn">App Store</a>
                     </div>
+                    {% else %}
+                    {% if project.playstore %}
+                    <div class="btn-col">
+                        <a href="{{ project.playstore }}" title="{{ project.title }} on the Google Play Store" class="btn">Play Store</a>
+                    </div>
+                    {% endif %}
+                    {% endif %}                
                 </div>
             </div>
         {% endfor %}

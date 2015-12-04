@@ -14,8 +14,15 @@
             </div>
             {% endfor %}
         </div>
+        {% if page.appstore %}
         <div class="project-btn-holder">
-            <a href="{{ page.appstore }}" class="btn-info {{ page.customclass }}">Check out on the AppStore</a>
+            <a href="{{ page.appstore }}" title="{{ page.title }} on the Apple App Store"  class="btn-info {{ page.customclass }}">Take a look on the App Store</a>
         </div>
+        {% endif %}
+        {% if page.playstore %}
+        <div class="project-btn-holder">
+            <a href="{{ page.playstore }}" title="{{ page.title }} on the Google Play Store" class="btn-info {{ page.customclass }}">Check it out on the Google Play Store</a>
+        </div>
+        {% endif %}
     </div>
 </div>

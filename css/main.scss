@@ -602,6 +602,7 @@ $project-foreground-colors: (
         @each $project, $foreground in $project-foreground-colors {
             &.#{$project} {
                 color: #{$foreground};
+                border-color: #{$foreground};
                 &:hover {
                     background-color: #{$foreground};
                 }                
