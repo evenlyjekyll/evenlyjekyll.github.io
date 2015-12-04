@@ -4,15 +4,15 @@ customclass: arte
 appstore: http://google.com
 title: ARTE
 small-description: Together with Novoda and Studio GOOD evenly reimagined the iPhone, iPad and Android apps for ARTE, the French-German TV channel.
-appstore: http://google.com
+appstore: https://itunes.apple.com/de/app/arte/id405028510?mt=8
 description:  |
    Culture Touch: the latest in culture as seen on ARTE in a digital weekly magazine. Every Friday, Culture Touch brings a selection of the most interesting exhibitions, shows, films, books, albums and events to keep you up to date with everything that's happening in the world of culture.
-   
+
    Together with Studio GOOD we concepted, designed and built a tablet magazine for ARTE to promote the great culture content available on ARTE. In addition to the app we also built a backend for letting the editors create the beautiful multimedia issues that make up Culture Touch.
-   
+
    Enjoy!
 
-    
+
 
 hero-img: /images/img02.png
 hero-img-small: /images/img02-small.png
@@ -36,7 +36,7 @@ product-images:
       img-medium: /images/img07-medium.png
       img-medium-2x: /images/img07-medium-2x.png
       img-description: image description
-      
+
     - img: /images/img08.png
       img-small: /images/img08-small.png
       img-small-2x: /images/img08-small-2x.png

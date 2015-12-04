@@ -2,13 +2,13 @@
 layout: projects
 title: 3D Around
 appstore: https://itunes.apple.com/us/app/3daround/id940090549?mt=8
-small-description: Together with the Swiss computer vision technology company Dacuda we built an app making use of their advanced computer vision technology.
+small-description: Together with the Swiss company Dacuda we built an app making use of their advanced computer vision technology.
 description:   |
-    3DAround is food photography in 3D. It allows you to capture your food (or really almost any object) in 3D using only the camera in your iPhone.
-    
-    Together with the Swiss computer vision technology company [Dacuda](http://dacuda.com) we built an app making use of their advanced computer vision technology. Using 3DAround you can caputure everyday objects like food and create a 3D model. This model can be uploaded and shared with your friends.
-    
-    This app was built almost entirely in Swift using the latest iOS technologies available. It incorporates motion sensors and OpenGL and was built for the newest iOS entirely in Apple's new programming language Swift.
+    3DAround is food photography in 3D. It allows you to capture your food (or really almost any object) in 3D using only the camera of your iPhone.
+
+    Together with the Swiss computer vision technology company [Dacuda](http://dacuda.com) we built an app making use of their advanced computer vision technology. Using 3DAround you can capture food or everyday objects and create a 3D model. This model can be uploaded and shared with your friends.
+
+    The 3DAround app was built almost entirely in Apple's new programming language Swift using the latest iOS technologies available. It incorporates motion sensors and OpenGL.
 
 hero-img: /images/img02.png
 hero-img-small: /images/img02-small.png
@@ -32,7 +32,7 @@ product-images:
       img-medium: /images/img07-medium.png
       img-medium-2x: /images/img07-medium-2x.png
       img-description: image description
-      
+
     - img: /images/img08.png
       img-small: /images/img08-small.png
       img-small-2x: /images/img08-small-2x.png
