@@ -26,7 +26,7 @@ $project-background-colors: (
         'culture':rgb(58,75,92),
         'arte': rgb(250,72,28),
         'rbmar': rgb(35,37,36),
-        'bvb': rgb(252,219,12),
+        'bvb': rgb(255,230,0),
         'hsv': rgb(1,85,164),
         'digital': #ffd305,
         'impossible': #d7d7d7,
@@ -580,13 +580,13 @@ $project-foreground-colors: (
     @each $project, $background in $project-background-colors {
         &.#{$project} {
             background: #{$background};
-        }          
+        }
     }
     @each $project, $foreground in $project-foreground-colors {
         &.#{$project} {
             color: #{$foreground};
-        }          
-    }  
+        }
+    }
 }
 .project-image-holder {
     a.btn-info {
@@ -597,7 +597,7 @@ $project-foreground-colors: (
                     color: #{$background};
                     border-color: #{$background};
                 }
-            }          
+            }
         }
         @each $project, $foreground in $project-foreground-colors {
             &.#{$project} {
@@ -605,9 +605,9 @@ $project-foreground-colors: (
                 border-color: #{$foreground};
                 &:hover {
                     background-color: #{$foreground};
-                }                
-            }          
-        }  
+                }
+            }
+        }
     }
 }
 #header {
@@ -620,8 +620,8 @@ $project-foreground-colors: (
       @each $project, $foreground in $project-foreground-colors {
           &.#{$project} {
               color: #{$foreground};
-          }                        
-      }      
+          }
+      }
   }
 }
 
@@ -721,20 +721,20 @@ $project-foreground-colors: (
               color: #{$background};
             }
           }
-        }    
+        }
     }
     @each $project, $foreground in $project-foreground-colors {
         &.#{$project} {
           color: #{$foreground};
           .btn {
             border-color: #{$foreground};
-            color: #{$foreground};              
+            color: #{$foreground};
             &:hover {
               background-color: #{$foreground};
             }
           }
-        }    
-    }  
+        }
+    }
   }
 }
 .single-project-banner {
