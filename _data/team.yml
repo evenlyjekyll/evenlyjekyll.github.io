@@ -59,6 +59,7 @@
 - firstname: Kevin
   lastname: Bettin
   email: kevin@evenly.io
+  github: Tinkeacc
   img: /images/img13.png
   img-small: /images/img13-small.png
   img-small-2x: /images/img13-small-2x.png
@@ -92,6 +93,7 @@
   lastname: König
   email: annalena@evenly.io
   twitter: blog_bleistift
+  github: blogbleistift
   img: /images/img13.png
   img-small: /images/img13-small.png
   img-small-2x: /images/img13-small-2x.png
@@ -99,4 +101,3 @@
   img-medium-2x: /images/img13-medium-2x.png
   img-description: image description
 
- 
