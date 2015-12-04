@@ -21,7 +21,7 @@ lib.properties = {
 	this.initialize();
 
 	// Layer 1
-	this.text = new cjs.Text("The future is\nalready here.\n\nWe want\nto help you\nbe part of it.", "24px 'Avenir LT Std 55 Roman'", "#FFFFFF");
+	this.text = new cjs.Text("The future is\nalready here.\n\nWe want\nto help you\nbe part of it.", "24px 'Avenir_Roman'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 33;
 	this.text.setTransform(-2,-127.8);
@@ -35,7 +35,7 @@ p.nominalBounds = new cjs.Rectangle(-72.3,-127.8,144.6,255.8);
 	this.initialize();
 
 	// Layer 1
-	this.text = new cjs.Text("The future is\nalready here.\n\nWe want\nto help you\nbe part of it.", "24px 'Avenir LT Std 55 Roman'", "#FFFFFF");
+	this.text = new cjs.Text("The future is\nalready here.\n\nWe want\nto help you\nbe part of it.", "24px 'Avenir_Roman'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 33;
 	this.text.setTransform(-2,-127.8);
@@ -63,7 +63,7 @@ p.nominalBounds = new cjs.Rectangle(-72.3,-127.8,144.6,255.8);
 	this.timeline.addTween(cjs.Tween.get(this).wait(459).call(this.frame_459).wait(1));
 
 	// Layer 2
-	this.text = new cjs.Text("The future is\nalready here.\n\nWe want\nto help you\nbe part of it.", "24px 'Avenir LT Std 55 Roman'", "#FFFFFF");
+	this.text = new cjs.Text("The future is\nalready here.\n\nWe want\nto help you\nbe part of it.", "24px 'Avenir_Roman'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 33;
 	this.text.setTransform(598,222.2);

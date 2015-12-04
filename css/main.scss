@@ -70,6 +70,7 @@ $project-foreground-colors: (
 
 
 #wrapper {
+  background-color: #fff;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -568,7 +569,7 @@ $project-foreground-colors: (
     font: 24px/1.38 'Avenir_Light';
     text-align: center;
     max-width: 630px;
-    margin: 0 auto 96px;
+    margin: 96px auto 96px;
     @include media('<tablet') {
       padding: 0 12px;
       margin-bottom: 26px;
