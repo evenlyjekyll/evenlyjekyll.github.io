@@ -6,12 +6,20 @@ permalink: /contact/
 
 <section class="contact-block container">
     <h1>Say Hello!</h1>
-    <p>If you're in Berlin, come visit and have <br>some coffee with us!</p>
+    <div class="option-box">
+        <p>You can send us an email or call.</p>
+        <p>
+        <a href="mailto:{{ site.email }}" class="btn-primary email"><span>{{ site.email }}</span></a><br>
+        <a href="tel:{{ site.phone | remove:' ' | remove:'+' }}" class="btn-primary"><span>{{ site.phone }}</span></a>
+        </p>
+    </div>
+        
+    <p>or if you're in Berlin, come visit and have <br>some coffee with us!</p>
     <address>
         <span>{{ site.company_name }}<br>{{ site.address }}<br>{{ site.zip }} {{ site.city }}</span>
     </address>
     <div class="map">
-        <a href="#">
+        <a href="http://maps.apple.com/maps?q=evenly%20GmbH&hl=de&ll=52.500343,13.425465&spn=0.002423,0.005043&num=1&t=m&z=18">
             <!-- picturefill: full manual control -->
             <picture>
                 <!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -23,9 +31,5 @@ permalink: /contact/
             </picture>
         </a>
     </div>
-    <div class="option-box">
-        <p>Or you can send us an email or call.</p>
-        <a href="mailto:{{ site.email }}" class="btn-primary email"><span>{{ site.email }}</span></a><br>
-        <a href="tel:{{ site.phone | remove:' ' | remove:'+' }}" class="btn-primary"><span>{{ site.phone }}</span></a>
-    </div>
+
 </section>
