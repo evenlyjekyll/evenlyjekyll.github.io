@@ -820,6 +820,8 @@ $project-foreground-colors: (
       width: 100%;
       height: auto;
       vertical-align: top;
+      -webkit-filter: drop-shadow(3px 4px 2px #222);
+      filter: drop-shadow(3px 4px 2px #222);
     }
     @include media('<desktop') {
       margin-bottom: 24px;
