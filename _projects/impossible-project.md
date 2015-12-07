@@ -27,17 +27,21 @@ img-medium-2x: /images/img06-medium-2x.png
 img-description: image description
 
 product-images:
-    - img: /images/img07.png
-      img-small: /images/img07-small.png
-      img-small-2x: /images/img07-small-2x.png
-      img-medium: /images/img07-medium.png
-      img-medium-2x: /images/img07-medium-2x.png
+    - device: iphone5
+      orientation: portrait
+      img: https://placehold.it/640x1136
+      img-small: https://placehold.it/640x1136
+      img-small-2x: https://placehold.it/640x1136
+      img-medium: https://placehold.it/640x1136
+      img-medium-2x: https://placehold.it/640x1136
       img-description: image description
-      
-    - img: /images/img08.png
-      img-small: /images/img08-small.png
-      img-small-2x: /images/img08-small-2x.png
-      img-medium: /images/img08-medium.png
-      img-medium-2x: /images/img08-medium-2x.png
+    
+    - device: iphone5
+      orientation: landscape
+      img: https://placehold.it/1136x640
+      img-small: https://placehold.it/1136x640
+      img-small-2x: https://placehold.it/1136x640
+      img-medium: https://placehold.it/1136x640
+      img-medium-2x: https://placehold.it/1136x640
       img-description: image description
 ---

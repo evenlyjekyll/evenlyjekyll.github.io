@@ -4,113 +4,133 @@ jQuery(function(){
 	initMobileNav();
 	initSameHeight();
 	initAnimationLayout();
+	initResponsiveScreenshots();
 });
+
+// responsive screenshots
+function initResponsiveScreenshots(){
+	$(document).ready(function(){
+		var cachedEl = $(".device-container");
+
+		cachedEl.each(function(){
+			if( $(this).find(".device-mockup").attr("data-orientation") == "portrait" ) {
+				console.log('portrait');
+				$(this).css("maxWidth", $(cachedEl).attr("data-size-port"));
+			} else {
+				$(this).css("maxWidth", $(cachedEl).attr("data-size-land"));
+				console.log('landscape');
+			}
+		});
+	});
+}
 
 // responsive layout handling
 function initAnimationLayout() {
 	var сanvas = document.getElementById('canvas');
 	var myScript = document.getElementById('canvasApi');
-	var url = "/" + сanvas.getAttribute('data-url');
+	if(сanvas){
+		var url = "/" + сanvas.getAttribute('data-url');
 
-	var phone = 'DHD07.js';
-	var tablet = 'DHD08.js';
-	var desktop = 'DHD09.js';
-	var lDesktop = 'DHD10.js';
-	var nameHD = 'DHD11.js';
+		var phone = 'DHD07.js';
+		var tablet = 'DHD08.js';
+		var desktop = 'DHD09.js';
+		var lDesktop = 'DHD10.js';
+		var nameHD = 'DHD11.js';
 
-	// handle layout resize
-	ResponsiveHelper.addRange({
-		'..767': {
-			on: function() {
-				myScript.src = url + phone;
+		// handle layout resize
+		ResponsiveHelper.addRange({
+			'..767': {
+				on: function() {
+					myScript.src = url + phone;
 
-				myScript.onload = function() {
-					var stage, exportRoot;
+					myScript.onload = function() {
+						var stage, exportRoot;
 
-					exportRoot = new lib.DHD7();
+						exportRoot = new lib.DHD7();
 
-					stage = new createjs.Stage(canvas);
-					stage.addChild(exportRoot);
-					stage.update();
+						stage = new createjs.Stage(canvas);
+						stage.addChild(exportRoot);
+						stage.update();
 
-					createjs.Ticker.setFPS(lib.properties.fps);
-					createjs.Ticker.addEventListener("tick", stage);
-				};
+						createjs.Ticker.setFPS(lib.properties.fps);
+						createjs.Ticker.addEventListener("tick", stage);
+					};
+				}
+			},
+			'768..1023': {
+				on: function() {
+					myScript.src = url + tablet;
+
+					myScript.onload = function() {
+						var stage, exportRoot;
+
+						exportRoot = new lib.DHD8();
+
+						stage = new createjs.Stage(canvas);
+						stage.addChild(exportRoot);
+						stage.update();
+
+						createjs.Ticker.setFPS(lib.properties.fps);
+						createjs.Ticker.addEventListener("tick", stage);
+					};
+				}
+			},
+			'1024..1199': {
+				on: function() {
+					myScript.src = url + desktop;
+
+					myScript.onload = function() {
+						var stage, exportRoot;
+
+						exportRoot = new lib.DHD9();
+
+						stage = new createjs.Stage(canvas);
+						stage.addChild(exportRoot);
+						stage.update();
+
+						createjs.Ticker.setFPS(lib.properties.fps);
+						createjs.Ticker.addEventListener("tick", stage);
+					};
+				}
+			},
+			'1200..1439': {
+				on: function() {
+					myScript.src = url + lDesktop;
+
+					myScript.onload = function() {
+						var stage, exportRoot;
+
+						exportRoot = new lib.DHD10();
+
+						stage = new createjs.Stage(canvas);
+						stage.addChild(exportRoot);
+						stage.update();
+
+						createjs.Ticker.setFPS(lib.properties.fps);
+						createjs.Ticker.addEventListener("tick", stage);
+					};
+				}
+			},
+			'1440..': {
+				on: function() {
+					myScript.src = url + nameHD;
+
+					myScript.onload = function() {
+						var stage, exportRoot;
+
+						exportRoot = new lib.test();
+
+						stage = new createjs.Stage(canvas);
+						stage.addChild(exportRoot);
+						stage.update();
+
+						createjs.Ticker.setFPS(lib.properties.fps);
+						createjs.Ticker.addEventListener("tick", stage);
+					};
+				}
 			}
-		},
-		'768..1023': {
-			on: function() {
-				myScript.src = url + tablet;
-
-				myScript.onload = function() {
-					var stage, exportRoot;
-
-					exportRoot = new lib.DHD8();
-
-					stage = new createjs.Stage(canvas);
-					stage.addChild(exportRoot);
-					stage.update();
-
-					createjs.Ticker.setFPS(lib.properties.fps);
-					createjs.Ticker.addEventListener("tick", stage);
-				};
-			}
-		},
-		'1024..1199': {
-			on: function() {
-				myScript.src = url + desktop;
-
-				myScript.onload = function() {
-					var stage, exportRoot;
-
-					exportRoot = new lib.DHD9();
-
-					stage = new createjs.Stage(canvas);
-					stage.addChild(exportRoot);
-					stage.update();
-
-					createjs.Ticker.setFPS(lib.properties.fps);
-					createjs.Ticker.addEventListener("tick", stage);
-				};
-			}
-		},
-		'1200..1439': {
-			on: function() {
-				myScript.src = url + lDesktop;
-
-				myScript.onload = function() {
-					var stage, exportRoot;
-
-					exportRoot = new lib.DHD10();
-
-					stage = new createjs.Stage(canvas);
-					stage.addChild(exportRoot);
-					stage.update();
-
-					createjs.Ticker.setFPS(lib.properties.fps);
-					createjs.Ticker.addEventListener("tick", stage);
-				};
-			}
-		},
-		'1440..': {
-			on: function() {
-				myScript.src = url + nameHD;
-
-				myScript.onload = function() {
-					var stage, exportRoot;
-
-					exportRoot = new lib.test();
-
-					stage = new createjs.Stage(canvas);
-					stage.addChild(exportRoot);
-					stage.update();
-
-					createjs.Ticker.setFPS(lib.properties.fps);
-					createjs.Ticker.addEventListener("tick", stage);
-				};
-			}
-		}
-	});
+		});
+	}
 }
 
 // cycle scroll gallery init
