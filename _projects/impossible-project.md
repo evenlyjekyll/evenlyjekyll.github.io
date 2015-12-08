@@ -25,6 +25,7 @@ img-small-2x: /images/img06-small-2x.png
 img-medium: /images/img06-medium.png
 img-medium-2x: /images/img06-medium-2x.png
 img-description: image description
+img-orientation: portrait
 
 product-images:
     - device: iphone5
