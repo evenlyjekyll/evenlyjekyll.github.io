@@ -2,12 +2,12 @@
 layout: projects
 title: RedBull Music Academy Radio
 customclass: rbmar
-appstore: http://google.com
-small-description: Together with EdenSpiekermann…
+appstore: https://itunes.apple.com/us/app/rbma-radio/id616279460?mt=8
+small-description: Together with EdenSpiekermann we build the app for the Red Bull Music Academy Radio
 description:  |
-    Together with EdenSpiekermann we set out to build an app that lets you enjoy the ever expanding catalog of the Red Bull Music Academy Radio.
+    Together with [EdenSpiekermann] (http://www.edenspiekermann.com) we set out to build an app that lets you enjoy the ever expanding catalog of the Red Bull Music Academy Radio.
 
-    With the RBMA Radio app you can listen to your favourite interviews, live recordings and mixes on your iPhone.
+    With the RBMA Radio app you can listen to your favorite interviews, live recordings and mixes on your iPhone.
 
     Listen and enjoy!
 
@@ -33,7 +33,7 @@ product-images:
       img-medium: /images/img07-medium.png
       img-medium-2x: /images/img07-medium-2x.png
       img-description: image description
-      
+
     - img: /images/img08.png
       img-small: /images/img08-small.png
       img-small-2x: /images/img08-small-2x.png

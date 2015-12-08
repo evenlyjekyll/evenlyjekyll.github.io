@@ -1,11 +1,11 @@
 ---
 layout: projects
 customclass: impossible
-appstore: http://google.com
+appstore: https://itunes.apple.com/de/app/impossible-project/id642124357?mt=8
 title: Impossible Project
-small-description: For the Impossible Project we devleoped an app that let's you expose your iPhone's digital photos to analog instant film using the Instant Lab.
+small-description: For the Impossible Project we developed an app that lets you expose your iPhones digital photos to analog instant film using the Instant Lab.
 description:  |
-   For the Impossible Project we devleoped an app that let's you expose your iPhone's digital photos to analog instant film using the Instant Lab. The Instant Lab was born out of a successful Kickstarter campaign.
+   For the Impossible Project we developed an app that lets you expose your iPhones digital photos to analog instant film using the Instant Lab. The Instant Lab was born out of a successful Kickstarter campaign.
 
    Apart from being a core part of the Instant Lab the app also lets you browse and share instant photos to the integrated gallery, buy film and get in touch with the Impossible community.
 
@@ -33,7 +33,7 @@ product-images:
       img-medium: /images/img07-medium.png
       img-medium-2x: /images/img07-medium-2x.png
       img-description: image description
-      
+
     - img: /images/img08.png
       img-small: /images/img08-small.png
       img-small-2x: /images/img08-small-2x.png
