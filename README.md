@@ -31,7 +31,7 @@ Images are different for some breakpoints; details below.
 Carousel images are fused with device images for launch. That will be changed later. For now, these are the dimensions in which images should be exported. Ox will take care of producing the usable assets.
 
 File name				|	Dimension (iPad)	|	Dimension (iPhone)
---|--
+---|---|---
 [img].png 				|	640 x 478px			|	182 x 317px
 [img]-medium-2x.png		|	1030 x 774px		|	294 x 522px
 [img]-medium.png		|	515 x 387px			|	147 x 261px
@@ -73,7 +73,7 @@ File name				|	Dimension
 #### Project Screenshot (Description)
 
 File name				|	Dimension (Portrait)
---|--
+---|---|---
 [img].png				|	300 x 530px
 [img]-medium-2x.png		|	600 x 1060px
 [img]-medium.png		|	300 x 530px
