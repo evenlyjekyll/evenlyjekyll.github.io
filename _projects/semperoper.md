@@ -16,7 +16,9 @@ hero-img-medium: /images/img02-medium.png
 hero-img-medium-2x: /images/img02-medium-2x.png
 hero-img-description: image description
 
-logo: /images/logo01.png
+logo: /images/projects/semperoper/icon-semperoper.png
+logo-2x: /images/projects/semperoper/icon-semperoper@2x.png
+
 img: /images/img06.png
 img-small: /images/img06-small.png
 img-small-2x: /images/img06-small-2x.png

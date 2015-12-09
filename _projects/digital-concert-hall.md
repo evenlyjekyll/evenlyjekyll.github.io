@@ -16,31 +16,60 @@ hero-img-medium: /images/img02-medium.png
 hero-img-medium-2x: /images/img02-medium-2x.png
 hero-img-description: image description
 
-logo: /images/logo01.png
-img: /images/img06.png
-img-small: /images/img06-small.png
-img-small-2x: /images/img06-small-2x.png
-img-medium: /images/img06-medium.png
-img-medium-2x: /images/img06-medium-2x.png
-img-description: image description
-img-orientation: portrait
+logo: /images/projects/digital/AppIcon57x57.png
+logo-2x: /images/projects/digital/AppIcon57x57@2x.png
+
+img: /images/projects/digital/dch-1.png
+img-small: /images/projects/digital/dch-1.png
+img-small-2x: /images/projects/digital/dch-1.png
+img-medium: /images/projects/digital/dch-1.png
+img-medium-2x: /images/projects/digital/dch-1.png
+img-description: Digital Concert Hall App
+img-orientation: landscape
 
 product-images:
     - device: iphone5
       orientation: portrait
-      img: https://placehold.it/640x1136
-      img-small: https://placehold.it/640x1136
-      img-small-2x: https://placehold.it/640x1136
-      img-medium: https://placehold.it/640x1136
-      img-medium-2x: https://placehold.it/640x1136
-      img-description: image description
+      img: /images/projects/digital/dch-2.png
+      img-small: /images/projects/digital/dch-2.png
+      img-small-2x: /images/projects/digital/dch-2.png
+      img-medium: /images/projects/digital/dch-2.png
+      img-medium-2x: /images/projects/digital/dch-2.png
+      img-description: Digital Concert Hall App iPhone
     
-    - device: iphone5
+    - device: ipad
       orientation: landscape
-      img: https://placehold.it/1136x640
-      img-small: https://placehold.it/1136x640
-      img-small-2x: https://placehold.it/1136x640
-      img-medium: https://placehold.it/1136x640
-      img-medium-2x: https://placehold.it/1136x640
-      img-description: image description
+      img: /images/projects/digital/dch-3.png
+      img-small: /images/projects/digital/dch-3.png
+      img-small-2x: /images/projects/digital/dch-3.png
+      img-medium: /images/projects/digital/dch-3.png
+      img-medium-2x: /images/projects/digital/dch-3.png
+      img-description: Digital Concert Hall App iPad
+      
+    - device: ipad
+      orientation: landscape
+      img: /images/projects/digital/dch-4.png
+      img-small: /images/projects/digital/dch-4.png
+      img-small-2x: /images/projects/digital/dch-4.png
+      img-medium: /images/projects/digital/dch-4.png
+      img-medium-2x: /images/projects/digital/dch-4.png
+      img-description: Digital Concert Hall App iPad
+      
+    - device: ipad
+      orientation: landscape
+      img: /images/projects/digital/dch-5.png
+      img-small: /images/projects/digital/dch-5.png
+      img-small-2x: /images/projects/digital/dch-5.png
+      img-medium: /images/projects/digital/dch-5.png
+      img-medium-2x: /images/projects/digital/dch-5.png
+      img-description: Digital Concert Hall App iPad
+      
+    - device: iphone5
+      orientation: portrait
+      img: /images/projects/digital/dch-6.png
+      img-small: /images/projects/digital/dch-6.png
+      img-small-2x: /images/projects/digital/dch-6.png
+      img-medium: /images/projects/digital/dch-6.png
+      img-medium-2x: /images/projects/digital/dch-6.png
+      img-description: Digital Concert Hall App iPhone
 ---

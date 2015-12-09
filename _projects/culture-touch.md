@@ -19,31 +19,51 @@ hero-img-medium: /images/projects/culture-touch-1.jpeg
 hero-img-medium-2x: /images/projects/culture-touch-1.jpeg
 hero-img-description: ARTE Culture Touch App
 
-logo: /images/logo01.png
-img: /images/img06.png
-img-small: /images/img06-small.png
-img-small-2x: /images/img06-small-2x.png
-img-medium: /images/img06-medium.png
-img-medium-2x: /images/img06-medium-2x.png
-img-description: image description
-img-orientation: portrait
+logo: /images/projects/culture/AppIcon57x57.png
+logo-2x: /images/projects/culture/AppIcon57x57@2x.png
+
+img: /images/projects/culture/culture-touch-1.jpeg
+img-small: /images/projects/culture/culture-touch-1.jpeg
+img-small-2x: /images/projects/culture/culture-touch-1.jpeg
+img-medium: /images/projects/culture/culture-touch-1.jpeg
+img-medium-2x: /images/projects/culture/culture-touch-1.jpeg
+img-description: Culture Touch
+img-orientation: landscape
 
 product-images:
-    - device: iphone5
-      orientation: portrait
-      img: https://placehold.it/640x1136
-      img-small: https://placehold.it/640x1136
-      img-small-2x: https://placehold.it/640x1136
-      img-medium: https://placehold.it/640x1136
-      img-medium-2x: https://placehold.it/640x1136
-      img-description: image description
-    
-    - device: iphone5
+    - device: ipad
       orientation: landscape
-      img: https://placehold.it/1136x640
-      img-small: https://placehold.it/1136x640
-      img-small-2x: https://placehold.it/1136x640
-      img-medium: https://placehold.it/1136x640
-      img-medium-2x: https://placehold.it/1136x640
-      img-description: image description
+      img: /images/projects/culture/culture-touch-2.jpeg
+      img-small: /images/projects/culture/culture-touch-2.jpeg
+      img-small-2x: /images/projects/culture/culture-touch-2.jpeg
+      img-medium: /images/projects/culture/culture-touch-2.jpeg
+      img-medium-2x: /images/projects/culture/culture-touch-2.jpeg
+      img-description: Culture Touch iPad
+    
+    - device: ipad
+      orientation: landscape
+      img: /images/projects/culture/culture-touch-3.jpeg
+      img-small: /images/projects/culture/culture-touch-3.jpeg
+      img-small-2x: /images/projects/culture/culture-touch-3.jpeg
+      img-medium: /images/projects/culture/culture-touch-3.jpeg
+      img-medium-2x: /images/projects/culture/culture-touch-3.jpeg
+      img-description: Culture Touch iPad
+      
+    - device: ipad
+      orientation: landscape
+      img: /images/projects/culture/culture-touch-4.jpeg
+      img-small: /images/projects/culture/culture-touch-4.jpeg
+      img-small-2x: /images/projects/culture/culture-touch-4.jpeg
+      img-medium: /images/projects/culture/culture-touch-4.jpeg
+      img-medium-2x: /images/projects/culture/culture-touch-4.jpeg
+      img-description: Culture Touch iPad
+      
+    - device: ipad
+      orientation: landscape
+      img: /images/projects/culture/culture-touch-5.jpeg
+      img-small: /images/projects/culture/culture-touch-5.jpeg
+      img-small-2x: /images/projects/culture/culture-touch-5.jpeg
+      img-medium: /images/projects/culture/culture-touch-5.jpeg
+      img-medium-2x: /images/projects/culture/culture-touch-5.jpeg
+      img-description: Culture Touch iPad
 ---

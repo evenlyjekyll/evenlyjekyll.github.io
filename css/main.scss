@@ -75,9 +75,9 @@ $project-foreground-colors: (
   overflow: hidden;
   position: relative;
   width: 100%;
-  padding: 60px 0 0;
+  margin: 60px 0 0;
   @include media('<large-desktop') {
-    padding: 59px 0 0;
+    margin: 59px 0 0;
   }
 }
 
@@ -743,57 +743,6 @@ $project-foreground-colors: (
   padding: 100px 0 69px;
   margin: 0 0 100px;
   color: $white;
-  &.digital {
-    background: #ffd305;
-    color: #4c4c4c;
-    padding-bottom: 72px;
-    @include media('<large-desktop') {
-      padding-bottom: 74px;
-      margin-bottom: 100px;
-      .text-box {
-        width: 48.3%;
-        padding-top: 0;
-      }
-    }
-    @include media('<desktop') {
-      padding-bottom: 87px;
-      margin-bottom: 101px;
-      .project-logo {
-        margin-bottom: 26px;
-      }
-      h1 {
-        margin-bottom: 101px;
-      }
-      .img-holder {
-        margin-top: 2px;
-        padding-right: 15px;
-      }
-    }
-    .mobile-text {
-      display: none;
-    }
-    @include media('<tablet') {
-      padding-bottom: 0;
-      margin-bottom: 0;
-      .project-logo {
-        margin-bottom: 14px;
-      }
-      h1 {
-        margin-bottom: 47px;
-      }
-      .text-box {
-        width: auto;
-        margin-bottom: 43px;
-        .mobile-text {
-          display: block;
-        }
-      }
-      .img-holder {
-        margin-top: 0;
-        padding: 23px 21px 17px;
-      }
-    }
-  }
   @include media('<large-desktop') {
     padding-bottom: 66px;
     margin-bottom: 98px;
@@ -806,12 +755,21 @@ $project-foreground-colors: (
     padding-bottom: 0;
     margin-bottom: 12px;
   }
+  .primary-image picture img {
+      -webkit-filter: drop-shadow(0px 0px 10px rgba(34,34,34,0.5));
+      filter: drop-shadow(0px 0px 10px rgba(34,34,34,0.5));
+  }
   .text-row {
     max-width: 624px;
     margin: 0 auto;
     @extend %clearfix;
     @include media('<tablet') {
       max-width: none;
+    }
+    .text-box {
+        p {
+            margin-bottom: 12px;
+        }
     }
     &.landscape {
       display: table;
@@ -854,8 +812,8 @@ $project-foreground-colors: (
       width: 100%;
       height: auto;
       vertical-align: top;
-      -webkit-filter: drop-shadow(3px 4px 2px #222);
-      filter: drop-shadow(3px 4px 2px #222);
+      -webkit-filter: drop-shadow(0px 0px 10px rgba(34,34,34,0.6));
+      filter: drop-shadow(0px 0px 10px rgba(34,34,34,0.6));
     }
     @include media('<desktop') {
       margin-bottom: 24px;

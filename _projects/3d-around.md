@@ -17,7 +17,9 @@ hero-img-medium: /images/img02-medium.png
 hero-img-medium-2x: /images/img02-medium-2x.png
 hero-img-description: image description
 
-logo: /images/logo01.png
+logo: /images/projects/3daround/AppIcon57x57.png
+logo-2x: /images/projects/3daround/AppIcon57x57@2x.png
+
 img: https://placehold.it/1136x640
 img-small: https://placehold.it/1136x640
 img-small-2x: https://placehold.it/1136x640
