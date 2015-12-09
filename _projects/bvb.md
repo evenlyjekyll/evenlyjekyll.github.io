@@ -2,13 +2,14 @@
 layout: projects
 customclass: bvb
 title: Borussia Dortmund
-appstore: http://google.com
-small-description: On behalf of SPORTFIVE we are building the app for internationally renowned soccer club Borussia Dortmund.
+appstore: https://itunes.apple.com/de/app/borussia-dortmund/id454971210?mt=8
+playstore: https://play.google.com/store/apps/details?id=de.bvb.android&hl=de
+small-description: On behalf of SPORTFIVE we are building the app for the internationally renowned soccer club Borussia Dortmund.
 description:   |
-    We took over the development of the Borussia Dortmund app from our friends at [Rheinfabrik](http://www.rheinfabrik.de) on behalf of [SPORTFIVE](http://www.sportfive.de).
-    
-    The BVB app encompasses all the features a fan could wish for: play schedule, live ticker and push notification, player and team infos as well as posts from Facebook, Twitter and Instagram. On a match day the app transforms into a realtime stream with detailed up to the minute infos, texts, videos and images.
-    
+    On behalf of [SPORTFIVE](http://www.sportfive.de) we are building the app for the internationally renowned soccer club Borussia Dortmund. We took over the development of the app from our friends at [Rheinfabrik](http://www.rheinfabrik.de).
+
+    The BVB app encompasses all the features a fan could wish for: match schedule, live ticker and push notifications, player and team information as well as posts from Facebook, Twitter and Instagram. On a match day the app transforms into a realtime stream with detailed up to the minute infos, texts, videos and images. For this day, the user can choose between three different modes: in stadion, at home in front of the TV, or on the move. The updates are then tailored to each audience individually, considering their context and situation.
+
     The app is designed by our partners at [Silberpuls](http://silberpuls.de) and built with love for Android and iOS.
 
 hero-img: /images/img02.png
