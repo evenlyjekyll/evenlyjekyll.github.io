@@ -65,6 +65,7 @@ $project-foreground-colors: (
 @import 'base/reset';
 @import 'base/typography';
 @import 'base/forms';
+@import 'base/device-mockups';
 @import 'layout/header';
 @import 'layout/footer';
 
@@ -812,6 +813,39 @@ $project-foreground-colors: (
     @include media('<tablet') {
       max-width: none;
     }
+    &.landscape {
+      display: table;
+      .text-box {
+        float: none;
+        width: 100%;
+        display: table-footer-group;
+      }
+      .img-holder {
+        display: table-header-group;
+        .img {
+          max-width: 100%;
+          img {
+            margin-bottom: 25px;
+          }
+        }
+      }
+    }
+    &.portrait {
+      @include media('<tablet') {
+        display: table;
+        .text-box {
+          float: none;
+          width: 100%;
+          display: table-footer-group;
+        }
+        .img-holder {
+          display: table-header-group;
+          img {
+            margin-bottom: 25px;
+          }
+        }
+      }
+    }
   }
   .project-logo {
     margin: 0 auto 26px;
@@ -820,6 +854,8 @@ $project-foreground-colors: (
       width: 100%;
       height: auto;
       vertical-align: top;
+      -webkit-filter: drop-shadow(3px 4px 2px #222);
+      filter: drop-shadow(3px 4px 2px #222);
     }
     @include media('<desktop') {
       margin-bottom: 24px;
@@ -890,7 +926,7 @@ $project-foreground-colors: (
     }
     @include media('<tablet') {
       margin: 0 -25px;
-      background: #fff;
+      //background: #fff;
       padding: 25px 20px 4px;
       .img {
         margin: 0 auto;

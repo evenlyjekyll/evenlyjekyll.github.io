@@ -31,14 +31,24 @@ Images are different for some breakpoints; details below.
 Carousel images are fused with device images for launch. That will be changed later. For now, these are the dimensions in which images should be exported. Ox will take care of producing the usable assets.
 
 File name				|	Dimension (iPad)	|	Dimension (iPhone)
---|--
+---|---|---
 [img].png 				|	640 x 478px			|	182 x 317px
-[img]-medium-2x.png		|	1030 x 774px		|	294 x 522px[img]-medium.png		|	515 x 387px			|	147 x 261px[img]-small-2x.png		|	476 x 356px			|	154 x 266px[img]-small.png			|	238 x 178px			|	77 x 133px
-### Team
-#### Team Member Picture
-For launch, this needs to be rendered with a circle shaped mask, as a transparent PNG. Later we should fix that to use HTML.
-File name				|	Dimension
---|--
+[img]-medium-2x.png		|	1030 x 774px		|	294 x 522px
+[img]-medium.png		|	515 x 387px			|	147 x 261px
+[img]-small-2x.png		|	476 x 356px			|	154 x 266px
+[img]-small.png			|	238 x 178px			|	77 x 133px
+
+
+
+
+### Team
+
+#### Team Member Picture
+
+For launch, this needs to be rendered with a circle shaped mask, as a transparent PNG. Later we should fix that to use HTML.
+
+File name				|	Dimension
+----------------|----------------
 [img].png				|	190 x 190px
 [img]-medium-2x.png		|	380 x 380px
 [img]-medium.png		|	190 x 190px
@@ -55,7 +65,7 @@ File name				|	Dimension (iPad)	|	Dimension (iPhone)
 For launch, this needs to be rendered with a rounded square shaped mask and drop shadow, as a transparent PNG. Later we should fix that to use HTML.
 
 File name				|	Dimension
---|--
+----------------|---------------
 [img].png				|	66 x 66px
 
 
@@ -63,7 +73,7 @@ File name				|	Dimension
 #### Project Screenshot (Description)
 
 File name				|	Dimension (Portrait)
---|--
+---|---|---
 [img].png				|	300 x 530px
 [img]-medium-2x.png		|	600 x 1060px
 [img]-medium.png		|	300 x 530px
@@ -76,7 +86,7 @@ File name				|	Dimension (Portrait)
 For launch, some of the sizes (medium, default) have a device outline which needs to be rendered manually with the device background.
 
 File name				|	Dimension (Portrait)
---|--
+----------------|---------------
 [img].png				|	340 x 530px
 [img]-medium-2x.png		|	548 x 970px
 [img]-medium.png		|	274 x 485px
