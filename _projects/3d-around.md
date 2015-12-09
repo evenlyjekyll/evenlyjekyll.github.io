@@ -20,30 +20,30 @@ hero-img-description: image description
 logo: /images/projects/3daround/AppIcon57x57.png
 logo-2x: /images/projects/3daround/AppIcon57x57@2x.png
 
-img: https://placehold.it/1136x640
-img-small: https://placehold.it/1136x640
-img-small-2x: https://placehold.it/1136x640
-img-medium: https://placehold.it/1136x640
-img-medium-2x: https://placehold.it/1136x640
-img-description: image description
-img-orientation: landscape
+img: /images/projects/3daround/3daround-1.jpeg
+img-small: /images/projects/3daround/3daround-1.jpeg
+img-small-2x: /images/projects/3daround/3daround-1.jpeg
+img-medium: /images/projects/3daround/3daround-1.jpeg
+img-medium-2x: /images/projects/3daround/3daround-1.jpeg
+img-description: 3DAround App
+img-orientation: portrait
 
 product-images:
     - device: iphone5
       orientation: portrait
-      img: https://placehold.it/640x1136
-      img-small: https://placehold.it/640x1136
-      img-small-2x: https://placehold.it/640x1136
-      img-medium: https://placehold.it/640x1136
-      img-medium-2x: https://placehold.it/640x1136
-      img-description: image description
+      img: /images/projects/3daround/3daround-2.jpeg
+      img-small: /images/projects/3daround/3daround-2.jpeg
+      img-small-2x: /images/projects/3daround/3daround-2.jpeg
+      img-medium: /images/projects/3daround/3daround-2.jpeg
+      img-medium-2x: /images/projects/3daround/3daround-2.jpeg
+      img-description: 3DAround App
     
     - device: iphone5
-      orientation: landscape
-      img: https://placehold.it/1136x640
-      img-small: https://placehold.it/1136x640
-      img-small-2x: https://placehold.it/1136x640
-      img-medium: https://placehold.it/1136x640
-      img-medium-2x: https://placehold.it/1136x640
-      img-description: image description
+      orientation: portrait
+      img: /images/projects/3daround/3daround-2.jpeg
+      img-small: /images/projects/3daround/3daround-2.jpeg
+      img-small-2x: /images/projects/3daround/3daround-2.jpeg
+      img-medium: /images/projects/3daround/3daround-2.jpeg
+      img-medium-2x: /images/projects/3daround/3daround-2.jpeg
+      img-description: 3DAround App
 ---
