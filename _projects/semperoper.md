@@ -19,30 +19,40 @@ hero-img-description: image description
 logo: /images/projects/semperoper/icon-semperoper.png
 logo-2x: /images/projects/semperoper/icon-semperoper@2x.png
 
-img: /images/img06.png
-img-small: /images/img06-small.png
-img-small-2x: /images/img06-small-2x.png
-img-medium: /images/img06-medium.png
-img-medium-2x: /images/img06-medium-2x.png
-img-description: image description
+img: /images/projects/semperoper/semperoper-1.jpg
+img-small: /images/projects/semperoper/semperoper-1.jpg
+img-small-2x: /images/projects/semperoper/semperoper-1.jpg
+img-medium: /images/projects/semperoper/semperoper-1.jpg
+img-medium-2x: /images/projects/semperoper/semperoper-1.jpg
+img-description: Impossible Project App
 img-orientation: portrait
 
 product-images:
     - device: iphone5
       orientation: portrait
-      img: https://placehold.it/640x1136
-      img-small: https://placehold.it/640x1136
-      img-small-2x: https://placehold.it/640x1136
-      img-medium: https://placehold.it/640x1136
-      img-medium-2x: https://placehold.it/640x1136
-      img-description: image description
+      img: /images/projects/semperoper/semperoper-2.jpg
+      img-small: /images/projects/semperoper/semperoper-2.jpg
+      img-small-2x: /images/projects/semperoper/semperoper-2.jpg
+      img-medium: /images/projects/semperoper/semperoper-2.jpg
+      img-medium-2x: /images/projects/semperoper/semperoper-2.jpg
+      img-description: Semperoper Dresden App
     
     - device: iphone5
       orientation: landscape
-      img: https://placehold.it/1136x640
-      img-small: https://placehold.it/1136x640
-      img-small-2x: https://placehold.it/1136x640
-      img-medium: https://placehold.it/1136x640
-      img-medium-2x: https://placehold.it/1136x640
-      img-description: image description
+      img: /images/projects/semperoper/semperoper-3.jpg
+      img-small: /images/projects/semperoper/semperoper-3.jpg
+      img-small-2x: /images/projects/semperoper/semperoper-3.jpg
+      img-medium: /images/projects/semperoper/semperoper-3.jpg
+      img-medium-2x: /images/projects/semperoper/semperoper-3.jpg
+      img-description: Semperoper Dresden App
+      
+    - device: iphone5
+      orientation: portrait
+      img: /images/projects/semperoper/semperoper-4.jpg
+      img-small: /images/projects/semperoper/semperoper-4.jpg
+      img-small-2x: /images/projects/semperoper/semperoper-4.jpg
+      img-medium: /images/projects/semperoper/semperoper-4.jpg
+      img-medium-2x: /images/projects/semperoper/semperoper-4.jpg
+      img-description: Semperoper Dresden App
+
 ---
