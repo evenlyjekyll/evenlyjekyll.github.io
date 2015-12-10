@@ -1,13 +1,15 @@
 ---
 layout: projects
 customclass: impossible
-appstore: http://google.com
+appstore: https://itunes.apple.com/de/app/impossible-project/id642124357?mt=8
 title: Impossible Project
-small-description: For the Impossible Project we devleoped an app that let's you expose your iPhone's digital photos to analog instant film using the Instant Lab.
-descriptions:
-    - 3DAround is food photography in 3D. It allows you to capture your food (or really almost any object) in 3D using only the camera in your iPhone.
-    - Together with the Swiss computer vision technology company Dacuda we built an app making use of their advanced computer vision technology. Using 3DAround you can caputure everyday objects like food and create a 3D model. This model can be uploaded and shared with your friends.
-    - This app was built almost entirely in Swift using the latest iOS technologies available. It incorporates motion sensors and OpenGL and was built for iOS 8.
+small-description: For the Impossible Project we developed an app that lets you expose your iPhones digital photos to analog instant film using the Instant Lab.
+description:  |
+   For the Impossible Project we developed an app that lets you expose your iPhones digital photos to analog instant film using the Instant Lab. The Instant Lab was born out of a successful Kickstarter campaign.
+
+   Apart from being a core part of the Instant Lab the app also lets you browse and share instant photos to the integrated gallery, buy film and get in touch with the Impossible community.
+
+   Enjoy crossing the lines between analog and digital with this app!
 
 hero-img: /images/img02.png
 hero-img-small: /images/img02-small.png
@@ -16,26 +18,51 @@ hero-img-medium: /images/img02-medium.png
 hero-img-medium-2x: /images/img02-medium-2x.png
 hero-img-description: image description
 
-logo: /images/logo01.png
-img: /images/img06.png
-img-small: /images/img06-small.png
-img-small-2x: /images/img06-small-2x.png
-img-medium: /images/img06-medium.png
-img-medium-2x: /images/img06-medium-2x.png
-img-description: image description
+logo: /images/projects/impossible/icon-impossible.png
+logo-2x: /images/projects/impossible/icon-impossible@2x.png
+
+img: /images/projects/impossible/impossible-1.jpg
+img-small: /images/projects/impossible/impossible-1.jpg
+img-small-2x: /images/projects/impossible/impossible-1.jpg
+img-medium: /images/projects/impossible/impossible-1.jpg
+img-medium-2x: /images/projects/impossible/impossible-1.jpg
+img-description: Impossible Project App
+img-orientation: portrait
 
 product-images:
-    - img: /images/img07.png
-      img-small: /images/img07-small.png
-      img-small-2x: /images/img07-small-2x.png
-      img-medium: /images/img07-medium.png
-      img-medium-2x: /images/img07-medium-2x.png
-      img-description: image description
+    - device: iphone5
+      orientation: portrait
+      img: /images/projects/impossible/impossible-2.jpg
+      img-small: /images/projects/impossible/impossible-2.jpg
+      img-small-2x: /images/projects/impossible/impossible-2.jpg
+      img-medium: /images/projects/impossible/impossible-2.jpg
+      img-medium-2x: /images/projects/impossible/impossible-2.jpg
+      img-description: Impossible Project App
+    
+    - device: iphone5
+      orientation: portrait
+      img: /images/projects/impossible/impossible-3.jpg
+      img-small: /images/projects/impossible/impossible-3.jpg
+      img-small-2x: /images/projects/impossible/impossible-3.jpg
+      img-medium: /images/projects/impossible/impossible-3.jpg
+      img-medium-2x: /images/projects/impossible/impossible-3.jpg
+      img-description: Impossible Project App
       
-    - img: /images/img08.png
-      img-small: /images/img08-small.png
-      img-small-2x: /images/img08-small-2x.png
-      img-medium: /images/img08-medium.png
-      img-medium-2x: /images/img08-medium-2x.png
-      img-description: image description
+    - device: iphone5
+      orientation: portrait
+      img: /images/projects/impossible/impossible-4.jpg
+      img-small: /images/projects/impossible/impossible-4.jpg
+      img-small-2x: /images/projects/impossible/impossible-4.jpg
+      img-medium: /images/projects/impossible/impossible-4.jpg
+      img-medium-2x: /images/projects/impossible/impossible-4.jpg
+      img-description: Impossible Project App
+      
+    - device: iphone5
+      orientation: portrait
+      img: /images/projects/impossible/impossible-5.jpg
+      img-small: /images/projects/impossible/impossible-5.jpg
+      img-small-2x: /images/projects/impossible/impossible-5.jpg
+      img-medium: /images/projects/impossible/impossible-5.jpg
+      img-medium-2x: /images/projects/impossible/impossible-5.jpg
+      img-description: Impossible Project App
 ---

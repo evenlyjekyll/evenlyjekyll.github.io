@@ -1,6 +1,8 @@
 <div class="projects-block container">
     <div class="text">
-        <p>This is copytext about doing work in a specific way and with a certain method, acclimatizing with client needs to deliver work of the highest quality.</p>
+        <p>Evenly believes mobile apps should be beautiful, reliable, and easy to use.</p>
+        <p>Since 2010 we’ve been building mobile apps for many different customers from first draft to final release.</p>
+        <p><a href="/contact">Contact</a> us and we will help you build your next great app.</p>        
     </div>
     <div class="projects-item-holder same-height">
         {% for project in site.projects %}
@@ -15,9 +17,17 @@
                     <div class="btn-col">
                         <a href="{{ project.url }}" class="btn">Tell me more</a>
                     </div>
+                    {% if project.appstore %}
                     <div class="btn-col">
-                        <a href="{{ project.appstore }}" class="btn">AppStore</a>
+                        <a href="{{ project.appstore }}" title="{{ project.title }} on the Apple App Store" class="btn">App Store</a>
                     </div>
+                    {% else %}
+                    {% if project.playstore %}
+                    <div class="btn-col">
+                        <a href="{{ project.playstore }}" title="{{ project.title }} on the Google Play Store" class="btn">Play Store</a>
+                    </div>
+                    {% endif %}
+                    {% endif %}                
                 </div>
             </div>
         {% endfor %}

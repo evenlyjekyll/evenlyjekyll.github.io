@@ -1,41 +1,69 @@
 ---
 layout: projects
 customclass: culture
-appstore: http://google.com
-title: Culture Touch
-small-description: Together with Studio GOOD we concepted, designed and built a tablet magazine for ARTE to promote the great culture content available on ARTE.
-descriptions:
-    - 3DAround is food photography in 3D. It allows you to capture your food (or really almost any object) in 3D using only the camera in your iPhone.
-    - Together with the Swiss computer vision technology company Dacuda we built an app making use of their advanced computer vision technology. Using 3DAround you can caputure everyday objects like food and create a 3D model. This model can be uploaded and shared with your friends.
-    - This app was built almost entirely in Swift using the latest iOS technologies available. It incorporates motion sensors and OpenGL and was built for iOS 8.
+appstore: https://itunes.apple.com/de/app/culture-touch-arte-cultural/id932880916?mt=8
+playstore: https://play.google.com/store/apps/details?id=tv.arte.culturetouch
+title: ARTE Culture Touch
+small-description: Together with Studio GOOD we concepted, designed and built a tablet magazine for ARTE to promote the great cultural content available on ARTE.
+description:  |
+  Together with [Studio GOOD](http://www.studio-good.de) we concepted, designed and built a tablet magazine for ARTE to promote the great cultural content available on ARTE. In addition to the app we also built a backend for letting the editors create the beautiful multimedia issues that make up Culture Touch.
 
-hero-img: /images/img02.png
-hero-img-small: /images/img02-small.png
-hero-img-small-2x: /images/img02-small-2x.png
-hero-img-medium: /images/img02-medium.png
-hero-img-medium-2x: /images/img02-medium-2x.png
-hero-img-description: image description
+   Culture Touch brings you the latest in culture as seen on ARTE in a digital weekly magazine. Every Friday, Culture Touch features a selection of the most interesting exhibitions, shows, films, books, albums and events to keep you up to date with the most interesting cultural gems.
 
-logo: /images/logo01.png
-img: /images/img06.png
-img-small: /images/img06-small.png
-img-small-2x: /images/img06-small-2x.png
-img-medium: /images/img06-medium.png
-img-medium-2x: /images/img06-medium-2x.png
-img-description: image description
+   Enjoy!
+
+hero-img: /images/projects/culture-touch-1.jpeg
+hero-img-small: /images/projects/culture-touch-1.jpeg
+hero-img-small-2x: /images/projects/culture-touch-1.jpeg
+hero-img-medium: /images/projects/culture-touch-1.jpeg
+hero-img-medium-2x: /images/projects/culture-touch-1.jpeg
+hero-img-description: ARTE Culture Touch App
+
+logo: /images/projects/culture/AppIcon57x57.png
+logo-2x: /images/projects/culture/AppIcon57x57@2x.png
+
+img: /images/projects/culture/culture-touch-1.jpeg
+img-small: /images/projects/culture/culture-touch-1.jpeg
+img-small-2x: /images/projects/culture/culture-touch-1.jpeg
+img-medium: /images/projects/culture/culture-touch-1.jpeg
+img-medium-2x: /images/projects/culture/culture-touch-1.jpeg
+img-description: Culture Touch
+img-orientation: landscape
 
 product-images:
-    - img: /images/img07.png
-      img-small: /images/img07-small.png
-      img-small-2x: /images/img07-small-2x.png
-      img-medium: /images/img07-medium.png
-      img-medium-2x: /images/img07-medium-2x.png
-      img-description: image description
+    - device: ipad
+      orientation: landscape
+      img: /images/projects/culture/culture-touch-2.jpeg
+      img-small: /images/projects/culture/culture-touch-2.jpeg
+      img-small-2x: /images/projects/culture/culture-touch-2.jpeg
+      img-medium: /images/projects/culture/culture-touch-2.jpeg
+      img-medium-2x: /images/projects/culture/culture-touch-2.jpeg
+      img-description: Culture Touch iPad
+    
+    - device: ipad
+      orientation: landscape
+      img: /images/projects/culture/culture-touch-3.jpeg
+      img-small: /images/projects/culture/culture-touch-3.jpeg
+      img-small-2x: /images/projects/culture/culture-touch-3.jpeg
+      img-medium: /images/projects/culture/culture-touch-3.jpeg
+      img-medium-2x: /images/projects/culture/culture-touch-3.jpeg
+      img-description: Culture Touch iPad
       
-    - img: /images/img08.png
-      img-small: /images/img08-small.png
-      img-small-2x: /images/img08-small-2x.png
-      img-medium: /images/img08-medium.png
-      img-medium-2x: /images/img08-medium-2x.png
-      img-description: image description
+    - device: ipad
+      orientation: landscape
+      img: /images/projects/culture/culture-touch-4.jpeg
+      img-small: /images/projects/culture/culture-touch-4.jpeg
+      img-small-2x: /images/projects/culture/culture-touch-4.jpeg
+      img-medium: /images/projects/culture/culture-touch-4.jpeg
+      img-medium-2x: /images/projects/culture/culture-touch-4.jpeg
+      img-description: Culture Touch iPad
+      
+    - device: ipad
+      orientation: landscape
+      img: /images/projects/culture/culture-touch-5.jpeg
+      img-small: /images/projects/culture/culture-touch-5.jpeg
+      img-small-2x: /images/projects/culture/culture-touch-5.jpeg
+      img-medium: /images/projects/culture/culture-touch-5.jpeg
+      img-medium-2x: /images/projects/culture/culture-touch-5.jpeg
+      img-description: Culture Touch iPad
 ---

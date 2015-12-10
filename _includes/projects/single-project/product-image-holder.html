@@ -2,20 +2,36 @@
     <div class="project-image-holder">
         <div class="row">
             {% for picture in page.product-images %}
-            <div class="img-col">
-                <picture>
-                    <!--[if IE 9]><video style="display: none;"><![endif]-->
-                    <source srcset="{{ picture.img-small }}, {{ page.img-small-2x }} 2x" media="(max-width: 767px)">
-                    <source srcset="{{ picture.img-medium }}, {{ page.img-medium-2x }} 2x" media="(max-width: 1023px)">
-                    <source srcset="{{ picture.img }}">
-                    <!--[if IE 9]></video><![endif]-->
-                    <img src="{{ picture.img }}" alt="{{ picture.img-description }}">
-                </picture>
+            <div class="device-container" data-size-port="300px" data-size-land="600px">
+                <div class="device-mockup" data-device="{{ picture.device }}" data-orientation="{{ picture.orientation }}" data-color="white">
+                    <div class="device">
+                        <div class="screen">
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="{{ picture.img-small }}, {{ picture.img-small-2x }} 2x" media="(max-width: 767px)">
+                                <source srcset="{{ picture.img-medium }}, {{ picture.img-medium-2x }} 2x" media="(max-width: 1023px)">
+                                <source srcset="{{ picture.img }}">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img src="{{ picture.img }}" alt="{{ picture.img-description }}">
+                            </picture>
+                        </div>
+                        <div class="button">
+                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                        </div>
+                    </div>
+                </div>
             </div>
             {% endfor %}
         </div>
+        {% if page.appstore %}
         <div class="project-btn-holder">
-            <a href="{{ page.appstore }}" class="btn-info">Check out on the AppStore</a>
+            <a href="{{ page.appstore }}" title="{{ page.title }} on the Apple App Store"  class="btn-info {{ page.customclass }}">Take a look on the App Store</a>
         </div>
+        {% endif %}
+        {% if page.playstore %}
+        <div class="project-btn-holder">
+            <a href="{{ page.playstore }}" title="{{ page.title }} on the Google Play Store" class="btn-info {{ page.customclass }}">Check it out on the Google Play Store</a>
+        </div>
+        {% endif %}
     </div>
 </div>
