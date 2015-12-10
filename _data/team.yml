@@ -3,103 +3,103 @@
   email: toto@evenly.io
   twitter: mrtoto
   github: toto
-  img: /images/img13.png
-  img-small: /images/img13-small.png
-  img-small-2x: /images/img13-small-2x.png
-  img-medium: /images/img13-medium.png
-  img-medium-2x: /images/img13-medium-2x.png
-  img-description: image description
+  img: /images/team/toto.png
+  img-small: /images/team/toto-small.png
+  img-small-2x: /images/team/toto-small-2x.png
+  img-medium: /images/team/toto-medium.png
+  img-medium-2x: /images/team/toto-medium-2x.png
+  img-description: Thomas Kollbach
   
 - firstname: Andreas
   lastname: Goese
   email: andreas@evenly.io
   twitter: andi357
   github: andi357
-  img: /images/img13.png
-  img-small: /images/img13-small.png
-  img-small-2x: /images/img13-small-2x.png
-  img-medium: /images/img13-medium.png
-  img-medium-2x: /images/img13-medium-2x.png
-  img-description: image description
+  img: /images/team/andreas.png
+  img-small: /images/team/andreas-small.png
+  img-small-2x: /images/team/andreas-small-2x.png
+  img-medium: /images/team/andreas-medium.png
+  img-medium-2x: /images/team/andreas-medium-2x.png
+  img-description: Andreas Goese
   
 - firstname: Thomas
   lastname: Heß
   email: tom@evenly.io
   twitter: antiraum
   github: antiraum
-  img: /images/img13.png
-  img-small: /images/img13-small.png
-  img-small-2x: /images/img13-small-2x.png
-  img-medium: /images/img13-medium.png
-  img-medium-2x: /images/img13-medium-2x.png
-  img-description: image description
+  img: /images/team/tom.png
+  img-small: /images/team/tom-small.png
+  img-small-2x: /images/team/tom-small-2x.png
+  img-medium: /images/team/tom-medium.png
+  img-medium-2x: /images/team/tom-medium-2x.png
+  img-description: Thomas Heß
 
 - firstname: Michal
   lastname: Thompson
   email: michal@evenly.io
   twitter: flashman1234
   github: flashman1234
-  img: /images/img13.png
-  img-small: /images/img13-small.png
-  img-small-2x: /images/img13-small-2x.png
-  img-medium: /images/img13-medium.png
-  img-medium-2x: /images/img13-medium-2x.png
-  img-description: image description
+  img: /images/team/michal.png
+  img-small: /images/team/michal-small.png
+  img-small-2x: /images/team/michal-small-2x.png
+  img-medium: /images/team/michal-medium.png
+  img-medium-2x: /images/team/michal-medium-2x.png
+  img-description: Michal Thompson
   
 - firstname: Sevil
   lastname: Okur
   email: sevil@evenly.io
-  img: /images/img13.png
-  img-small: /images/img13-small.png
-  img-small-2x: /images/img13-small-2x.png
-  img-medium: /images/img13-medium.png
-  img-medium-2x: /images/img13-medium-2x.png
-  img-description: image description
+  img: /images/team/sevil.png
+  img-small: /images/team/sevil-small.png
+  img-small-2x: /images/team/sevil-small-2x.png
+  img-medium: /images/team/sevil-medium.png
+  img-medium-2x: /images/team/sevil-medium-2x.png
+  img-description: Sevil Okur
   
 - firstname: Kevin
   lastname: Bettin
   email: kevin@evenly.io
   github: Tinkeacc
-  img: /images/img13.png
-  img-small: /images/img13-small.png
-  img-small-2x: /images/img13-small-2x.png
-  img-medium: /images/img13-medium.png
-  img-medium-2x: /images/img13-medium-2x.png
-  img-description: image description
+  img: /images/team/kevin.png
+  img-small: /images/team/kevin-small.png
+  img-small-2x: /images/team/kevin-small-2x.png
+  img-medium: /images/team/kevin-medium.png
+  img-medium-2x: /images/team/kevin-medium-2x.png
+  img-description: Kevin Bettin
 
 - firstname: Jörg
   lastname: Bühmann
   email: joerg@evenly.io
   twitter: orkoden
   github: orkoden
-  img: /images/img13.png
-  img-small: /images/img13-small.png
-  img-small-2x: /images/img13-small-2x.png
-  img-medium: /images/img13-medium.png
-  img-medium-2x: /images/img13-medium-2x.png
-  img-description: image description
+  img: /images/team/jorg.png
+  img-small: /images/team/jorg-small.png
+  img-small-2x: /images/team/jorg-small-2x.png
+  img-medium: /images/team/jorg-medium.png
+  img-medium-2x: /images/team/jorg-medium-2x.png
+  img-description: Jörg Bühmann
   
 - firstname: Judith
   lastname: Lindemann
   email: judith@evenly.io
   twitter: L_INDEMANN
   github: Lindemann
-  img: /images/img13.png
-  img-small: /images/img13-small.png
-  img-small-2x: /images/img13-small-2x.png
-  img-medium: /images/img13-medium.png
-  img-medium-2x: /images/img13-medium-2x.png
-  img-description: image description
+  img: /images/team/judith.png
+  img-small: /images/team/judith-small.png
+  img-small-2x: /images/team/judith-small-2x.png
+  img-medium: /images/team/judith-medium.png
+  img-medium-2x: /images/team/judith-medium-2x.png
+  img-description: Judith Lindemann
 
 - firstname: Anna-Lena
   lastname: König
   email: annalena@evenly.io
   twitter: blog_bleistift
   github: blogbleistift
-  img: /images/img13.png
-  img-small: /images/img13-small.png
-  img-small-2x: /images/img13-small-2x.png
-  img-medium: /images/img13-medium.png
-  img-medium-2x: /images/img13-medium-2x.png
-  img-description: image description
+  img: /images/team/anna-lena.png
+  img-small: /images/team/anna-lena-small.png
+  img-small-2x: /images/team/anna-lena-small-2x.png
+  img-medium: /images/team/anna-lena-medium.png
+  img-medium-2x: /images/team/anna-lena-medium-2x.png
+  img-description: Anna-Lena König
 
